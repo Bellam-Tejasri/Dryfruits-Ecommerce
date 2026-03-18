@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <div className="bg-white min-h-screen flex flex-col">
       <Header />
-      <Navbar />
+      <Navbar /> 
 
       {/*Banner*/}
       <section className="relative w-full h-[180px] sm:h-[220px] md:h-80 overflow-hidden">
