@@ -1,0 +1,399 @@
+{
+"nuts-dryfruits": [
+{ "id": 1, "name": "Premium Jumbo Almonds", "type":"almonds", "price": 124.0, "img": "/Nuts/almonds.png",
+"images":["/Nuts/almonds.png","/Nuts/almonds.png","/Nuts/almonds.png","/Nuts/almonds.png","/Nuts/almonds.png","/Nuts/almonds.png"],
+"shortDescription": "Jumbo Almonds are rich in Qualities and benifits , Jumbo almonds help in reducing the Hunger and reduce the intake of calories .These Almonds can be used to Extract oil and Milk , Jumbo Almonds are long in nature and Extra bit in sweetness.",
+"description": "Almond Jumbo is a premium selection of the finest, largest, and most flavorful almonds, carefully sourced to deliver an unparalleled snacking experience. These jumbo-sized almonds are a testament to quality, boasting a rich, nutty flavor and a delightfully crunchy texture that sets them apart from ordinary almonds.\n\nIdeal for health-conscious individuals, these almonds make a versatile addition to your diet. Enjoy them as a wholesome snack, incorporate them into your meals, or use them to elevate your desserts and baked goods with their exquisite taste and texture. Whether you're looking for a post-workout energy boost, a midday pick-me-up, or a luxurious touch to your culinary creations, Almond Jumbo is the perfect choice.\n\nWith their premium quality and natural flavor, these almonds embody the best that nature has to offer, making every bite a satisfying and nourishing experience.",
+"benefits": "• Heart Health: Jumbo Almonds are rich in monounsaturated fats, which are known to promote heart health by reducing bad cholesterol levels and supporting cardiovascular function\n• Nutrient Powerhouse: These almonds are packed with essential nutrients, including vitamin E, calcium, iron, and magnesium, which contribute to overall health and well-being\n• Jumbo Almonds are a good source of Monounsaturated Fatty acid, Vitamin E, copper, folic acid, Magnesium, iron and vit B6\n• Further more curb the complication of constipation as rich in fiber\n• Studies have shown that this helps lowers LDL cholesterol and Triglyceride level which is Good for Heart Health"
+},
+{ "id": 2, "name": "Mamra Almond (Organic Almond)", "type":"almonds", "price": 380.0, "img": "/dryfruits/nuts/organic-almond.jpg" ,
+"images":["/dryfruits/nuts/organic1.jpg","/dryfruits/nuts/organic-almond.jpg","/dryfruits/nuts/organic1.jpg","/dryfruits/nuts/organic-almond.jpg","/dryfruits/nuts/organic1.jpg"],
+"shortDescription":"Mamra is a famous organic almond variety , They are also referred to as Mamra badam or Mamra badam Giri , This variety of Mamra Badam is expensive than others , Mamra is more sweet in taste compare to others because of increased natural sugar though contains maximum medical values.",
+"description": "Marma is a famous organic almond variety. They are also referred to as Mamra badam or Marma badam Giri. This variety of Mamra Badam is more expensive than others. Marma is sweeter in taste compared to others because of increased natural sugar, though it contains maximum medicinal values.\n\nMamra Almonds or Mamra Badam are a variety of almonds found primarily in Iran, Afghanistan, and parts of Kashmir, and are now available at My Pahadi Dukan at affordable Mamra Badam prices. They are also known as Irani Mamra Almonds or Afghani Mamra Almonds.",
+"benefits": " Rich in Nutrients: Mamra almonds are packed with essential nutrients like vitamin E, magnesium, calcium, and healthy fats, promoting overall health and wellness\n Boosts Brain Function: Known for their high content of nutrients like riboflavin and L-carnitine, they enhance memory, concentration, and cognitive performance\n Supports Heart Health: Loaded with monounsaturated fats and antioxidants, Mamra almonds help reduce bad cholesterol and improve cardiovascular health\n Improves Digestion: High in dietary fiber, they aid in better digestion and support a healthy gut\n Helps Regulate Blood Sugar: Their low glycemic index and healthy fats help stabilize blood sugar levels, making them suitable for diabetics\n Promotes Healthy Skin: The abundance of vitamin E and antioxidants in Mamra almonds helps maintain glowing, youthful skin" 
+},
+{ "id": 3, "name": "Cashew Nuts (kaju) Jumbo Sized", "type":"cashew", "price": 164, "img": "/Nuts/kaju.png" , 
+"images":["/Nuts/kaju.png","/Nuts/kaju.png","/Nuts/kaju.png","/Nuts/kaju.png","/Nuts/kaju.png"],
+"shortDescription":"Indulge in the luxurious size and rich flavor of our jumbo cashew. Each bite delivers a delightful crunch and buttery texture, making it a premium choice for snacking.",
+"description": "Indulge in the luxurious size and rich flavor of our jumbo cashew. Each bite delivers a delightful crunch and buttery texture, making it a premium choice for snacking.",
+"benefits": "• Good source of protein, fiber, magnesium, and zinc\n• Help in promoting muscle health\n• Support immune function\n• Contribute to overall well-being"
+},
+{ "id": 4, "name": "Cashew Nuts (kaju) Medium Sized", "type":"cashew", "price": 138, "img": "/Nuts/kaju.png" , 
+"images":["/Nuts/kaju.png","/Nuts/kaju.png","/Nuts/kaju.png","/Nuts/kaju.png","/Nuts/kaju.png"],
+"shortDescription":"Savor the rich flavor and smooth texture of our special cashew. Carefully selected for exceptional quality, it's perfect for any occasion.", 
+"description": "Savor the rich flavor and smooth texture of our special cashew. Carefully selected for exceptional quality, it's perfect for any occasion.",
+"benefits": "• Loaded with antioxidants, vitamins, and minerals\n• Supports brain health\n• Aids in digestion\n• Helps reduce the risk of chronic diseases\n• Good source of protein, fiber, magnesium, and zinc\n• Help in promoting muscle health\n• Support immune function\n• Contribute to overall well-being"
+},
+{ "id": 5, "name": "Top-Quality Pista Akbari", "type":"pista", "price": 178.0, "img": "/Nuts/pista shell.png" , 
+"images":["/Nuts/pista shell.png","/Nuts/pista shell.png","/Nuts/pista shell.png","/Nuts/pista shell.png","/Nuts/pista shell.png"],
+"shortDescription":"Super long when compared to other types, Akbari pistachios are the most elite and expensive variety from Iran- the largest producer of the nut. Often hailed as one of the world's tastiest nuts.",
+"description": "Super long when compared to other types, Akbari pistachios are the most elite and expensive variety from Iran, the largest producer of the nut. Often hailed as one of the world's tastiest nuts.",
+"benefits": "• Loaded with nutrients\n• High in antioxidants\n• Low in calories yet high in protein\n• May aid weight loss\n• Promote healthy gut bacteria\n• May lower cholesterol and blood pressure\n• May promote blood vessel health\n• May help lower blood sugar"
+},
+{ "id": 6, "name": "Premium Pista Plain (Kernel)", "type":"pista", "price": 260.0, "img": "/Nuts/pista.png" , 
+"images":["/Nuts/pista.png","/Nuts/pista.png","/Nuts/pista.png","/Nuts/pista.png","/Nuts/pista.png"],
+"shortDescription":"Pistachios are the seeds of the Pistachio tree . They are usually green and taste slightly sweet , They are also called Happy Nut and considered frequent eaten snack nowdays ans largely used in baking , confectioneries , ice creams or Crunchy layering for fish and meat .",
+"description": "Pistachios are the seeds of the Pistachio tree. They are usually green and taste slightly sweet. They are also called Happy Nut and are considered a frequently eaten snack nowadays, and are largely used in baking, confectioneries, ice creams, or as a crunchy layering for fish and meat.",
+"benefits": "• Great source of healthy fats, fiber, protein, antioxidants, and Vitamin B6, Thiamine\n• Good for blood vessels\n• Heart protective agent\n• Improves vision and memory power"
+},
+{ "id": 7, "name": "Premium Walnut Kernels", "type":"walnut", "price": 230.0, "img": "/Nuts/walnut.png" , 
+"images":["/Nuts/walnut.png","/Nuts/walnut.png","/Nuts/walnut.png","/Nuts/walnut.png","/Nuts/walnut.png"],
+"shortDescription":"Our walnut kernels are carefully selected for their premium quality and rich flavor. These crunchy and nutritious kernels are perfect for snacking, baking, or adding to salads and desserts. Enjoy the natural goodness of walnuts in every bite.", 
+"description": "Our walnut kernels are carefully selected for their premium quality and rich flavor. These crunchy and nutritious kernels are perfect for snacking, baking, or adding to salads and desserts. Enjoy the natural goodness of walnuts in every bite.",
+"benefits": "• Rich source of omega-3 fatty acids, promoting heart health\n• High in antioxidants, helping reduce inflammation and oxidative stress\n• Contains vitamins and minerals, such as vitamin E, magnesium, and folate, supporting overall health\n• Supports brain function and cognitive health\n• Helps improve cholesterol levels, contributing to cardiovascular health\n• May aid in weight management due to their satisfying and nutrient-dense nature"
+},
+{ "id": 8, "name": "Premium Black Raisins", "type":"raisins", "price": 75.0, "img": "/Nuts/black raisins.png" , 
+"images":["/Nuts/black raisins.png","/Nuts/black raisins.png","/Nuts/black raisins.png","/Nuts/black raisins.png","/Nuts/black raisins.png"],
+"shortDescription":"Our black raisins are naturally sun-dried to perfection, preserving their rich color, sweet flavor, and chewy texture. Versatile and delicious, they can be enjoyed as a snack on their own, mixed into your favorite recipes, or added to breakfast cereals and baked goods.", 
+"description": "Our black raisins are naturally sun-dried to perfection, preserving their rich color, sweet flavor, and chewy texture. Versatile and delicious, they can be enjoyed as a snack on their own, mixed into your favorite recipes, or added to breakfast cereals and baked goods.",
+"benefits": "• Powerhouse of nutrients, including iron, potassium, antioxidants, and vitamins\n• They aid in digestion\n• Support bone health\n• Boost energy levels\n• Promote healthy skin\n• Their natural sweetness makes them a healthier alternative to refined sugar in various dishes"
+},
+{ "id": 9, "name": "Exquisite Raisins Afghan Special", "type":"raisins", "price": 105.0, "img": "/dryfruits/nuts/green-raisins.jpg" , 
+"images":["/dryfruits/nuts/green1.jpg","/dryfruits/nuts/green-raisins.jpg","/dryfruits/nuts/green1.jpg","/dryfruits/nuts/green-raisins.jpg","/dryfruits/nuts/green1.jpg"],
+"shortDescription":"These Raisins are specially sourced from Afghanistan , These Raisins are widely used in Cultural cooking around the world especially in Desserts and also added to Health tonics , Snacks , and compact , High energy food supplements for Mountaineers - Backpackers and Campers", 
+"description": "These raisins are specially sourced from Afghanistan. They are widely used in cultural cooking around the world, especially in desserts, and are also added to health tonics, snacks, and compact, high-energy food supplements for mountaineers, backpackers, and campers.",
+"benefits": "• Immune booster\n• Treat malnutrition\n• Antioxidant\n• Cholesterol-free\n• Iron, gut enrich\n• Treat bowel disease"
+},
+{ "id": 10, "name": "Best Raisins Afghan Long", "type":"raisins", "price": 85.0, "img": "/dryfruits/nuts/long-raisins.jpg" , 
+"images":["/dryfruits/nuts/long1.jpg","/dryfruits/nuts/long-raisins.jpg","/dryfruits/nuts/long1.jpg","/dryfruits/nuts/long-raisins.jpg","/dryfruits/nuts/long1.jpg"],
+"shortDescription":"These Raisins are specially sourced from Afghanistan , These Raisins are widely used in Cultural cooking around the world especially in Desserts and also added to Health tonics , Snacks , and compact , High energy food supplements for Mountaineers - Backpackers and Campers", 
+"description": "These raisins are specially sourced from Afghanistan. They are widely used in cultural cooking around the world, especially in desserts, and are also added to health tonics, snacks, and compact, high-energy food supplements for mountaineers, backpackers, and campers.",
+"benefits": "• Immune booster\n• Treat malnutrition\n• Antioxidant\n• Cholesterol-free\n• Iron, gut enrich\n• Treat bowel disease"
+},
+{ "id": 11, "name": "Raisins Round", "type":"raisins", "price": 64.0, "img": "/Nuts/round raisins.png" , 
+"images":["/Nuts/round raisins.png","/Nuts/round raisins.png","/Nuts/round raisins.png"],
+"shortDescription":"Premium Raisins round",
+"description": "Premium raisins, round."
+},
+{ "id": 12, "name": "Premium Munakka Raisins", "type":"raisins", "price": 86.0, "img": "/dryfruits/nuts/munakka.jpg" , 
+"images":["/dryfruits/nuts/munakka1.jpg","/dryfruits/nuts/munakka.jpg","/dryfruits/nuts/munakka1.jpg","/dryfruits/nuts/munakka.jpg","/dryfruits/nuts/munakka1.jpg"],
+"shortDescription":"Munnaka raisins are sourced from the finest grapes and carefully dried to preserve their natural sweetness and juicy flavor. With a tender texture and rich taste, these raisins are perfect for snacking, baking, or adding to your favorite dishes for a burst of natural sweetness.", 
+"description": "Munnaka raisins are sourced from the finest grapes and carefully dried to preserve their natural sweetness and juicy flavor. With a tender texture and rich taste, these raisins are perfect for snacking, baking, or adding to your favorite dishes for a burst of natural sweetness.",
+"benefits": "• Rich in essential nutrients like iron, calcium, and vitamins, making them a nutritious addition to your diet\n• They support bone health, boost immunity, aid in digestion, and provide a quick source of energy\n• Helps to satisfy your sweet cravings while nourishing your body with essential vitamins and minerals"
+},
+{ "id": 13, "name": "Luxe Turkish Apricot Turkel", "type":"apricot", "price": 125.0, "img": "/Nuts/apricot.png" , 
+"images":["/Nuts/apricot.png","/Nuts/apricot.png","/Nuts/apricot.png","/Nuts/apricot.png","/Nuts/apricot.png"],
+"shortDescription":"Delight in the soft, juicy texture of our luxe Turkish apricot turkel, packed with natural sweetness and essential nutrients.",
+"description": "Our Luxe Turkish Apricot Turkel offers a premium snacking experience with its tender, juicy texture and rich, naturally sweet flavor. Sourced from the fertile orchards of Turkey, these apricots are carefully selected and dried to perfection, making them an ideal snack or ingredient in your favorite recipes. Loaded with essential vitamins and minerals, including vitamin A, potassium, and fiber, Turkish Apricot Turkel supports healthy digestion and overall well-being. Whether eaten on their own, added to salads, or used in desserts, these apricots are a delicious and nutritious choice.",
+"benefits": "• Calories: 260 kcal\n• Carbohydrates: 66g\n• Protein: 2g\n• Fat: 0.4g\n• Fiber: 7g\n• Vitamin A: 1900 IU\n• Potassium: 1100mg\n• Calcium: 55mg"
+},
+{ "id": 14, "name": "Golden Sun-Dried Apricots", "type":"dry apricot", "price": 110.0, "img": "/dryfruits/nuts/dry-apricot.jpg" , 
+"images":["/dryfruits/nuts/dry-apricot1.jpg","/dryfruits/nuts/dry-apricot.jpg","/dryfruits/nuts/dry-apricot1.jpg","/dryfruits/nuts/dry-apricot.jpg","/dryfruits/nuts/dry-apricot1.jpg"],
+"shortDescription":"Savor the natural sweetness and chewy texture of our golden sun-dried apricots, rich in fiber, vitamins, and antioxidants.",
+"description": "Our Golden Sun-Dried Apricots are carefully dried to preserve their naturally sweet flavor and chewy texture. Packed with essential nutrients, these apricots are a fantastic source of dietary fiber, vitamins A and C, and powerful antioxidants. Whether enjoyed as a wholesome snack or added to your favorite dishes, these dried apricots provide a burst of fruity goodness with every bite. Their delightful sweetness makes them perfect for desserts, cereals, or trail mixes, offering a healthy alternative to sugary snacks.",
+"benefits": "• Calories: 241 kcal\n• Carbohydrates: 63g\n• Protein: 3.4g\n• Fat: 0.5g\n• Fiber: 7g\n• Vitamin A: 1926 IU\n• Potassium: 1162mg\n• Iron: 2.7mg"
+},
+{ "id": 15, "name": "Exquisite Brazil Nuts", "type":"brazil", "price": 420.0, "img": "/Nuts/brazil.png" , 
+"images":["/Nuts/brazil.png","/Nuts/brazil.png" ,"/Nuts/brazil.png" ,"/Nuts/brazil.png" ,"/Nuts/brazil.png" ],
+"shortDescription":"Savor the rich, buttery taste of our exquisite Brazil nuts, loaded with healthy fats, protein, and essential minerals for a nutritious snack.",
+"description": "Enjoy the distinctive, creamy flavor of our Exquisite Brazil Nuts, a premium snack option known for their rich, buttery texture. Sourced from the lush Amazon rainforest, these nuts are a nutritional powerhouse, offering a high concentration of healthy fats, protein, and essential minerals. Brazil nuts are particularly renowned for their exceptional selenium content, an important antioxidant that supports thyroid function and immune health. Perfect for snacking on their own, adding to trail mixes, or incorporating into recipes, these Brazil nuts provide a satisfying and nutritious experience.",
+"benefits": "• Calories: 659 kcal\n• Carbohydrates: 12g\n• Protein: 14g\n• Fat: 67g\n• Fiber: 8g\n• Selenium: 1917 mcg\n• Magnesium: 376mg\n• Potassium: 659mg"
+},
+{ "id": 16, "name": "Premium Hazelnuts", "type":"hazelnut", "price": 280.0, "img": "/Nuts/hazelnut.png" , 
+"images":["/Nuts/hazelnut.png","/Nuts/hazelnut.png","/Nuts/hazelnut.png","/Nuts/hazelnut.png","/Nuts/hazelnut.png"],
+"shortDescription":"Enjoy the rich, nutty flavor of our premium hazelnuts, packed with healthy fats, protein, and essential vitamins for a nutritious snack.", 
+"description": "Indulge in the delectable taste of our Premium Hazelnuts, known for their rich, nutty flavor and crunchy texture. These high-quality hazelnuts are a versatile ingredient, perfect for snacking, baking, or adding a delightful crunch to salads and dishes. Hazelnuts are a powerhouse of nutrients, offering a good source of healthy fats, protein, vitamins E and B, and minerals such as magnesium and copper. Enjoy them on their own, mix them into your favorite recipes, or use them to make delicious nut butters and spreads.",
+"benefits": "• Calories: 628 kcal\n• Carbohydrates: 17g\n• Protein: 14g\n• Fat: 61g\n• Fiber: 10g\n• Vitamin E: 15mg\n• Magnesium: 163mg\n• Copper: 1.7mg"
+},
+{ "id": 17, "name": "Deluxe Pecans", "type":"pecans" ,"price": 280.0, "img": "/dryfruits/nuts/pecans.jpg" , 
+"images":["/dryfruits/nuts/pecans1.jpg","/dryfruits/nuts/pecans.jpg","/dryfruits/nuts/pecans1.jpg","/dryfruits/nuts/pecans.jpg","/dryfruits/nuts/pecans1.jpg"],
+"shortDescription":"Enjoy the rich, buttery flavor of our deluxe pecans, packed with healthy fats, protein, and essential nutrients for a tasty, nutritious snack.",
+"description": "Delight in the rich, buttery taste of our Deluxe Pecans, known for their unique flavor and crunchy texture. These high-quality pecans are a versatile ingredient, ideal for snacking, baking, or adding to a variety of dishes. Pecans are a superb source of healthy fats, protein, and essential vitamins and minerals. They are particularly rich in antioxidants, which support overall health and well-being. Enjoy these pecans on their own, mixed into salads and cereals, or used to make delicious pecan pies and other baked goods.",
+"benefits": "• Calories: 691 kcal\n• Carbohydrates: 14g\n• Protein: 9g\n• Fat: 72g\n• Fiber: 10g\n• Vitamin E: 1.4mg\n• Magnesium: 121mg\n• Zinc: 4.5mg"
+},
+{ "id": 18, "name": "Macadamia Nuts", "type":"macadamia", "price": 399.0, "img": "/dryfruits/nuts/macadamia.jpg" , 
+"images":["/dryfruits/nuts/macadamia.jpg","/dryfruits/nuts/macadamia.jpg" ,"/dryfruits/nuts/macadamia.jpg"],
+"shortDescription":"Macadamia Nuts: The Perfect Crunch of Luxury and Nutrition. A luxurious snack packed with healthy fats, antioxidants, and essential nutrients. Perfect for guilt-free snacking or adding elegance to your recipes!",
+"description": "Macadamia nuts are a luxurious and nutrient-rich delicacy, cherished for their rich, buttery flavor and creamy texture. Native to Australia, these premium nuts are often referred to as the 'queen of nuts' due to their exceptional taste and nutritional profile. Macadamias are packed with heart-healthy monounsaturated fats, essential minerals like magnesium, calcium, and potassium, and powerful antioxidants such as vitamin E, which support overall health and well-being.\n\nThese versatile nuts are not only a delightful snack on their own but also a gourmet addition to various recipes, from savory dishes to decadent desserts. Whether roasted, raw, or blended into nut butter, macadamia nuts offer a delightful crunch and a smooth finish that elevates any meal.\n\nPerfect for gifting, snacking, or enriching your diet, macadamia nuts are a true superfood that brings indulgence and nourishment together in every bite.",
+"benefits": "• Rich in Healthy Fats: Packed with heart-healthy monounsaturated fats that support cardiovascular health\n• Boosts Energy: High in calories and essential nutrients, providing sustained energy throughout the day\n• Promotes Skin and Bone Health: Loaded with antioxidants, vitamin E, and magnesium to nourish skin and strengthen bones"
+},
+{ "id": 19, "name": "Velvety Soft Dried Prunes", "type":"prumes", "price": 98.0, "img": "/dryfruits/nuts/dry-prunes.jpg" , 
+"images":["/dryfruits/nuts/prunes1.jpg","/dryfruits/nuts/dry-prunes.jpg","/dryfruits/nuts/prunes1.jpg","/dryfruits/nuts/dry-prunes.jpg","/dryfruits/nuts/prunes1.jpg"],
+"shortDescription":"Relish the rich, sweet flavor of our velvety soft dried prunes, packed with natural fiber and antioxidants for a healthy, tasty snack.",
+"description": "Our Velvety Soft Dried Prunes are a nutritious and flavorful snack that combines natural sweetness with a wealth of health benefits. These prunes are carefully dried to preserve their soft texture and rich, fruity taste, making them an excellent source of dietary fiber, vitamins, and minerals. Perfect for snacking, baking, or adding to salads, prunes are widely appreciated for their ability to support digestive health and boost energy levels. A great alternative to sugary snacks, they offer a natural way to satisfy your sweet cravings while nourishing your body.",
+"benefits": "• Calories: 240 kcal\n• Carbohydrates: 64g\n• Protein: 2g\n• Fat: 0g\n• Fiber: 7g\n• Potassium: 732mg\n• Calcium: 43mg\n• Vitamin K: 59mcg"
+},
+{ "id": 20, "name": "Tropical Bliss Dried Mango", "type":"mango", "price": 96.0, "img": "/Nuts/mango dry.png" , 
+"images":["/Nuts/mango dry.png","/Nuts/mango dry.png","/Nuts/mango dry.png","/Nuts/mango dry.png","/Nuts/mango dry.png"],
+"shortDescription":"Enjoy the tangy-sweet flavor of our tropical dried mango slices, a delicious snack rich in vitamins and natural energy.",
+"description": "Indulge in the tropical goodness of our Tropical Bliss Dried Mango Slices, a naturally sweet and chewy treat that captures the essence of ripe mangoes. Dried to perfection, these mango slices retain their vibrant flavor and provide a healthy, portable snack that’s perfect for any time of the day. Rich in essential vitamins, especially vitamin C and A, these dried mango slices are a powerhouse of nutrition, offering immune-boosting and skin-loving benefits. Whether eaten on their own or added to your favorite trail mix or yogurt, our dried mango slices are a tasty way to enjoy mangoes anytime.",
+"benefits": "• Calories: 320 kcal\n• Carbohydrates: 82g\n• Protein: 2g\n• Fat: 0.5g\n• Fiber: 5g\n• Vitamin C: 43mg\n• Vitamin A: 1800 IU\n• Potassium: 300mg"
+},
+{ "id": 21, "name": "Deluxe Pine Nuts (Without Shell)", "type":"pine", "price": 880.0, "img": "/dryfruits/nuts/pine.jpg" , 
+"images":["/dryfruits/nuts/pine1.jpg","/dryfruits/nuts/pine.jpg","/dryfruits/nuts/pine1.jpg","/dryfruits/nuts/pine.jpg","/dryfruits/nuts/pine1.jpg"],
+"shortDescription":"Enjoy the rich, buttery flavor of our deluxe pine nuts, packed with healthy fats, protein, and essential nutrients for a nutritious snack.",
+"description": "Elevate your snacking and culinary experience with our Deluxe Pine Nuts (Without Shell). These premium pine nuts are known for their delicate, buttery flavor and smooth texture, making them a versatile ingredient in both sweet and savory dishes. Sourced from the finest regions, our pine nuts are a powerhouse of nutrients, including healthy fats, protein, and essential minerals. They are perfect for adding to salads, pesto, baked goods, or simply enjoying as a wholesome snack. With no shell to crack, these pine nuts are ready to be enjoyed in their purest form.",
+"benefits": "• Calories: 673 kcal\n• Carbohydrates: 13g\n• Protein: 14g\n• Fat: 68g\n• Fiber: 3g\n• Magnesium: 251mg\n• Zinc: 6mg\n• Potassium: 597mg"
+},
+{ "id": 22, "name": "Makhana Plain", "type":"makhana", "price": 450.0, "img": "/Nuts/makhana.png" , 
+"images":["/Nuts/makhana.png","/Nuts/makhana.png","/Nuts/makhana.png","/Nuts/makhana.png","/Nuts/makhana.png"],
+"shortDescription":"Enjoy the light, crunchy texture of our crispy makhana, a healthy, protein-rich snack loaded with antioxidants and fiber.",
+"description": "Discover the perfect balance of taste and nutrition with our Rich Assortment of Mixed Dry Fruits. This delightful mix includes the best of nature's bounty—almonds, cashews, raisins, pistachios, and more, carefully selected to ensure superior quality and flavor. A powerhouse of essential vitamins, minerals, and healthy fats, this mix provides an ideal snack for boosting energy, improving heart health, and supporting overall well-being. Whether eaten on its own or added to meals, our mixed dry fruits are a convenient and wholesome way to enjoy the benefits of multiple fruits in every bite.",
+"benefits": "• Calories: 500 kcal\n• Carbohydrates: 45g\n• Protein: 12g\n• Fat: 30g\n• Fiber: 7g\n• Vitamin E: 6mg\n• Iron: 3mg\n• Calcium: 80mg"
+},
+{ "id": 23, "name": "Rich Assortment of Mixed Dry Fruits", "type":"mixed", "price": 85.0, "img": "/Nuts/dry cherries.png" , 
+"images":["/Nuts/dry cherries.png","/Nuts/dry cherries.png"],
+"shortDescription":"A premium blend of nature’s finest dried fruits, offering a healthy and delicious snack packed with nutrients and flavor.",
+"description": "Discover the guilt-free goodness of our Crispy Makhana, a light and nutritious snack perfect for any time of the day. Made from premium-quality lotus seeds, makhana delivers a crunchy texture with a delicate flavor. Known for its high protein, fiber, and antioxidant content, makhana supports overall health while being low in calories and fat. Ideal for snacking or adding to salads, these crunchy seeds provide a wholesome alternative to traditional snacks. They are also naturally gluten-free and suitable for various dietary preferences.",
+"benefits": "• Calories: 347 kcal\n• Carbohydrates: 77g\n• Protein: 9.7g\n• Fat: 0.1g\n• Fiber: 7g\n• Calcium: 60mg\n• Magnesium: 70mg\n• Potassium: 500mg"
+},
+{ "id": 24, "name": "Anjeer (Figs) Super Jumbo", "type":"anjeer", "price": 280.0, "img": "/Nuts/anjeer.png" , 
+"images":["/Nuts/anjeer.png","/Nuts/anjeer.png" ,"/Nuts/anjeer.png" ],
+"shortDescription":"Indulge in the natural sweetness of Premium Dried Anjeer, a wholesome and nutritious delight packed with essential nutrients.",
+"description": "Rich in Nutrients: Loaded with dietary fiber, vitamins, and minerals like potassium, calcium, and iron, supporting overall health.\nNatural Sweetness: No added sugars or preservatives—just the pure taste of nature.\nVersatile Uses: Great as a snack, in smoothies, breakfast bowls, or as a natural sweetener in recipes.\nHealthy Energy Boost: Perfect for fueling your day or recovering after workouts.",
+"benefits": "• Supports digestive health\n• Promotes heart health with natural antioxidants\n• Strengthens bones and boosts immunity\n• Helps manage weight with its satisfying fiber content"
+}
+],
+
+
+
+"dates": [
+{ "id": 1, "name": "Premium Ajwa Dates", "price": 190.0, "img": "/dryfruits/dates/ajwa.png", 
+"images":["/dryfruits/dates/ajwa.png","/dryfruits/dates/ajwa.png","/dryfruits/dates/ajwa.png"],
+"shortDescription": "Ajwa dates from Medina (Saudi Arabia) is a variety of naturally sweet dates that are dark brown to almost black in color and the size ranges between 2.5 to 3cm. When it comes to the texture, these dates are chewy, soft, and have a perfect balance of firmness.",
+"description": "Ajwa dates from Medina (Saudi Arabia) is a variety of naturally sweet dates that are dark brown to almost black in color and the size ranges between 2.5 to 3cm. When it comes to the texture, these dates are chewy, soft, and have a perfect balance of firmness.",
+"benefits": "• Male infertility support\n• Regulate blood pressure\n• Avoid atherosclerosis\n• Reduce the pain of childbirth\n• Prevent abdominal cancer\n• Improve digestive process\n• Support eye health"
+},
+{ "id": 2, "name": "Finest Mabroom Dates", "price": 140.0, "img": "/dryfruits/dates/mabroom.png",
+"images":["/dryfruits/dates/mabroom.png","/dryfruits/dates/mabroom.png","/dryfruits/dates/mabroom.png"],
+"shortDescription": "Medjool dates are large, sweet, and succulent fruits known for their rich flavor and soft, chewy texture. Grown in the Middle East and North Africa, they are packed with natural sugars, fiber, and essential nutrients, making them a perfect healthy snack or addition to various recipes.",
+"description": "Medjool dates are often referred to as the 'king of dates' due to their large size, rich flavor, and soft, caramel-like texture. These dates are harvested from the date palm tree, primarily in regions such as the Middle East, North Africa, and parts of the United States. Known for their natural sweetness, they are often enjoyed as a healthy snack or incorporated into a variety of dishes, from smoothies and desserts to savory recipes.",
+"benefits": "• Natural energy boost\n• Rich in fiber\n• Supports bone health\n• Boosts immunity\n• Supports healthy skin"
+},
+{ "id": 3, "name": "Safawi Sweet Delight", "price": 110.0, "img": "/dryfruits/dates/safawi.png",
+"images":["/dryfruits/dates/safawi.png","/dryfruits/dates/safawi.png","/dryfruits/dates/safawi.png"],
+"shortDescription": "Mabroom dates are premium, elongated dates known for their natural sweetness, chewy texture, and rich flavor. They have a dark brown to reddish-brown hue with a firm, fibrous flesh and a slightly dry texture, making them less sticky than other date varieties.",
+"description": "Mabroom dates are a healthy and nutrient-rich snack, packed with essential vitamins, minerals, and natural sugars that provide a quick energy boost. Perfect as a standalone treat, they can also be paired with nuts or used in desserts for added sweetness and texture. These dates are a favorite for their exquisite taste and are often enjoyed during festive occasions or as a daily healthy indulgence.",
+"benefits": "• Rich in nutrients\n• Supports bone strength\n• Rich in antioxidants\n• Promotes heart health"
+},
+{ "id": 4, "name": "Premium Medjool", "price": 190.0, "img": "/dryfruits/dates/medjool.png",
+"images":["/dryfruits/dates/medjool.png","/dryfruits/dates/medjool.png","/dryfruits/dates/medjool.png"],
+"shortDescription": "Safawi dates are soft, dark brown dates known for their mildly sweet flavor and smooth texture. Rich in nutrients and antioxidants, they are a wholesome and energizing snack, perfect for daily consumption or special occasions.",
+"description": "Safawi dates are a premium variety of dates cherished for their soft texture, dark brown hue, and mildly sweet flavor. Grown primarily in the fertile lands of Saudi Arabia, these dates are prized for their consistent quality and nutrient-rich profile, making them a favorite among date enthusiasts. Renowned for their naturally smooth and chewy texture, Safawi dates offer a delightful eating experience that can be enjoyed at any time of the day. Their mildly sweet taste, balanced with a hint of caramel-like richness, makes them a versatile option for snacking, cooking, or pairing with other foods.",
+"benefits": "• Energy booster\n• Rich in nutrients\n• Promotes digestive health\n• Supports bone health"
+},
+{ "id": 5, "name": "Arabian Seedless Date", "price": 40.0, "img": "/dryfruits/dates/arabian.png",
+"images":["/dryfruits/dates/arabian.png","/dryfruits/dates/arabian.png","/dryfruits/dates/arabian.png"],
+"shortDescription": "Arabian seedless dates are soft, naturally sweet, and packed with essential nutrients. A perfect healthy snack or a versatile ingredient for desserts and dishes, these dates are rich in fiber, energy, and antioxidants.",
+"description": "Arabian seedless dates are a premium variety of dates known for their rich taste, tender texture, and natural sweetness. These dates are carefully pitted for convenience, making them an ideal snack or ingredient for a wide range of recipes, from desserts to smoothies and savory dishes.",
+"benefits":""
+},
+{ "id": 6, "name": "Premium Dry Dates", "price": 48.0, "img": "/dryfruits/dates/dry.png",
+"images":["/dryfruits/dates/dry.png","/dryfruits/dates/dry.png","/dryfruits/dates/dry.png"],
+"shortDescription": "Dry dates are nutrient-rich and naturally sweet dried fruits, known for their chewy texture and long shelf life. Packed with fiber, energy, and essential minerals, they make for a wholesome snack or a healthy addition to recipes.",
+"description": "Dry dates are a traditional superfood with a rich heritage and an array of health benefits. They are harvested fresh and naturally dried to preserve their nutrients and extend their shelf life. Known for their sweet flavor and chewy texture, dry dates are a versatile ingredient, ideal for snacking, cooking, and baking.",
+"benefits":""
+}
+],
+
+
+
+"dfh-exclusives": [
+{ "id": 1, "name": "Pancharattan Mix", "price": 168.0, "img": "/dryfruits/exclusive/pancharattan.png",
+"images":["/dryfruits/exclusive/pancharattan.png","/dryfruits/exclusive/pancharattan.png","/dryfruits/exclusive/pancharattan.png"],
+"shortDescription": "Pancharattan is a wholesome blend of five premium seeds and nuts, carefully crafted to offer a perfect balance of taste and nutrition. Packed with essential nutrients, it’s an ideal snack for a healthy, energetic lifestyle.",
+"description": "Masala Dry Fruit Fusion is a flavourful and crunchy snack that combines the goodness of dry fruits with the tangy, zesty kick of chat masala. This delightful blend features almonds, cashews, pistachios, raisins, and poppy seeds, all coated in a savoury spice mix. The rich, natural sweetness of the raisins balances the bold, spicy flavours of the chat masala, while the nuts provide a satisfying crunch and a dose of healthy fats and proteins. This fusion of crunchy, sweet, and spicy ingredients offers a distinctive and exciting flavour profile that can easily become your go-to snack for any occasion. Premium quality with 100% quality guarantee. Swift shipping across India. Easy return as per policy.",
+"benefits": "• Rich in nutrients: Packed with almonds, cashews, pistachios, and poppy seeds, providing essential vitamins, minerals, and healthy fats\n• Boosts energy: A perfect blend of dry fruits for an instant energy boost, ideal for snacking on the go\n• Good source of protein: Provides plant-based protein, essential for muscle repair and overall body strength\n• Improves digestion: The fiber content in nuts and raisins supports healthy digestion and gut health\n• Antioxidant power: Rich in antioxidants, which help combat oxidative stress and promote healthy skin and immunity\n• Supports bone strength: Loaded with minerals like calcium and magnesium to maintain strong bones\n• Versatile snack: A guilt-free snack option that is both delicious and nourishing"
+},
+{ "id": 2, "name": "Wholesome Muesli", "price": 118.0, "img": "/dryfruits/exclusive/wholesome.png",
+"images":["/dryfruits/exclusive/wholesome.png","/dryfruits/exclusive/wholesome.png","/dryfruits/exclusive/wholesome.png"],
+"shortDescription": "Muesli is a nutritious blend of oats, dried fruits, nuts, and seeds, offering a perfect balance of taste and health. Ideal for breakfast or a quick snack, it’s rich in fiber, protein, and essential vitamins to fuel your day.",
+"description": "Muesli is a nutritious, uncooked cereal typically made from rolled oats, nuts, seeds, and dried fruits, with caramel sweetness. It is often enjoyed as a breakfast option, either with milk, yoghurt, or a dairy-free alternative, and can also be eaten cold or left to soak overnight. A Muesli typically refers to a blend of easy to prepare and nutritionally balanced ingredients, providing a convenient and wholesome way to start the day. Breakfast mixes can vary depending on preferences and dietary goals but are often designed to be quick, nutrient-dense, and satisfying. Key ingredients in Muesli include oats, corn, almonds, black currants, cranberries, and pumpkin seeds.",
+"benefits": "• Rich in fiber\n• Boosts energy levels\n• Supports weight management\n• Supports immunity"
+},
+{ "id": 3, "name": "Nutritious Breakfast Mix", "price": 118.0, "img": "/dryfruits/exclusive/nutritious.png",
+"images":["/dryfruits/exclusive/nutritious.png","/dryfruits/exclusive/nutritious.png","/dryfruits/exclusive/nutritious.png"],
+"shortDescription": "Breakfast Mix is a wholesome blend of nuts, seeds, dried fruits, and grains, designed to provide a perfect balance of taste and nutrition. Ideal for a healthy start to the day, it’s packed with energy, fiber, and essential vitamins.",
+"description": "Breakfast Mix is a carefully curated combination of nutrient-rich ingredients, including crunchy nuts, wholesome seeds, naturally sweet dried fruits, and energy-packed grains. This mix is crafted to fuel your mornings with a delicious and healthy boost, offering the perfect balance of taste and nutrition. Loaded with fiber, it supports healthy digestion and keeps you full for longer. The healthy fats and proteins from nuts and seeds provide sustained energy, while the vitamins and minerals from dried fruits and grains contribute to overall health and vitality. The breakfast mix contains almonds, cashews, pumpkin seeds, sunflower seeds, flax seeds, dried cherries, black raisins, and black currants. A breakfast mix is an easy, customisable, and nutritious way to fuel your day, tailored to your tastes and dietary needs, ensuring a good balance of protein, fiber, and healthy fats in the morning.",
+"benefits": "• Energy boosting\n• Rich in fibre\n• Supports heart health\n• Balanced nutrition"
+},
+{ "id": 4, "name": "Protein Beans", "price": 108.0, "img": "/dryfruits/exclusive/beans.png",
+"images":["/dryfruits/exclusive/beans.png","/dryfruits/exclusive/beans.png","/dryfruits/exclusive/beans.png"],
+"shortDescription": "A mix of black beans, soybeans, and green soybeans (also known as protein beans) offers a nutrient-dense combination that provides a wide range of health benefits.",
+"description": "A mix of black beans, soybeans, and green soybeans (also known as protein beans) offers a nutrient-dense combination that provides a wide range of health benefits. Protein beans, often called leguminous crops, are known for their high protein content. They are an excellent plant-based source of protein, making them an essential food choice for vegetarians, vegans, and anyone looking to add more plant-derived protein to their diet. Besides being rich in protein, beans provide many other nutrients, such as fibre, vitamins, minerals, and antioxidants.",
+"benefits": "• Complete protein\n• Fiber-rich\n• Rich in micronutrients"
+},
+{ "id": 5, "name": "Protein Booster", "price": 114.0, "img": "/dryfruits/exclusive/booster.png",
+"images":["/dryfruits/exclusive/booster.png","/dryfruits/exclusive/booster.png","/dryfruits/exclusive/booster.png"],
+"shortDescription": "Protein Boost is a dynamic essence of energy and nutrition in one punchy phrase. It conveys strength, vitality, and the benefits of protein-packed nourishment, making it ideal for products, campaigns, or content focused on promoting a healthy and active lifestyle.",
+"description": "These foods can be combined in various meals to boost your overall protein intake, support muscle growth, and maintain a balanced diet, especially for those following plant-based or vegetarian lifestyles. Almonds and peanuts provide moderate protein along with healthy fats. Green peas and black beans offer higher protein content along with essential vitamins and minerals. Green beans and corn provide smaller amounts of protein but contribute to a well-rounded diet with other nutrients.",
+"benefits": "• Supports muscle growth and repair: Provides essential amino acids needed for building and repairing muscles, making it ideal for active lifestyles and recovery\n• Aids in weight management: Promotes a feeling of fullness, reduces cravings, and boosts metabolism, helping maintain a healthy weight\n• Enhances energy and vitality: Stabilizes blood sugar levels and provides sustained energy throughout the day\n• Strengthens overall health: Improves skin, hair, and nail health, supports immune function, and aids in tissue repair and recovery"
+},
+{ "id": 6, "name": "Mexican Bytes", "price": 96.0, "img": "/dryfruits/exclusive/mexican.png",
+"images":["/dryfruits/exclusive/mexican.png","/dryfruits/exclusive/mexican.png","/dryfruits/exclusive/mexican.png"],
+"shortDescription": "Premium and Crunchy Mexican Bytes are a delightful snack that combines the rich, bold flavors of Mexican cuisine. These bite-sized treats are crafted with premium nuts, seeds, and spices, offering a unique fusion of zesty, smoky, and mildly spicy notes.",
+"description": "Perfect for on-the-go snacking or as a party favorite, they deliver a burst of flavor and texture in every bite. Packed with wholesome goodness, they cater to both your cravings and nutritional needs, making them an irresistible choice for snack enthusiasts who appreciate quality and taste. Premium and Crunchy Mexican Bytes are a delightful snack that combines the rich, bold flavors of Mexican cuisine. These bite-sized treats are crafted with premium nuts, seeds, and spices, offering a unique fusion of zesty, smoky, and mildly spicy notes.",
+"benefits": "• Rich in nutrients: Packed with premium nuts and seeds, they provide essential vitamins, minerals, and healthy fats that support overall health\n• Boosts energy: The combination of wholesome ingredients offers a natural energy boost, perfect for staying active and focused\n• Supports heart health: Contains heart-friendly fats and spices like chili and cumin, which are known to promote cardiovascular wellness\n• Aids digestion: Spices and seeds in the mix may improve digestion and support gut health, thanks to their fiber and natural anti-inflammatory properties"
+},
+{ "id": 7, "name": "Dry Fruit Delight (Dates) - 250gm", "price": 300.0, "img": "/dryfruits/exclusive/delight.png",
+"images":["/dryfruits/exclusive/delight.png","/dryfruits/exclusive/delight.png","/dryfruits/exclusive/delight.png"],
+"shortDescription": "Dry Fruit Delight is a rich and wholesome sweet made with a blend of premium nuts and natural sweeteners like dates or jaggery. Packed with nutrients, this refined sugar-free treat is perfect for celebrations, gifting, or as a healthy snack.",
+"description": "Dry Fruit Delight is a delectable sweet treat that combines the goodness of assorted dry fruits with the richness of traditional flavors. Made with premium-quality nuts like almonds, cashews, pistachios, and walnuts, Dry Fruit Delight is naturally sweetened with dates, figs, or jaggery, making it a healthier dessert option. Free from refined sugar, it's a guilt-free indulgence that offers a perfect balance of taste and nutrition. Dry Fruit Delight is not just a sweet, it's a symbol of festivity and togetherness, commonly gifted or served during festivals, weddings, and special occasions. Whether enjoyed with tea, shared with loved ones, or used as a nutritious treat for children, this traditional delicacy is a perfect blend of heritage, health, and indulgence. Its long shelf life and natural ingredients make it a timeless favorite for all age groups.",
+"benefits": "• Rich in nutrients: Packed with nuts and seeds, it provides essential vitamins, minerals, healthy fats, and antioxidants for overall well-being\n• Boosts energy: Natural sweeteners like dates and jaggery offer a quick and sustained energy boost, making it an excellent snack for active lifestyles\n• Supports heart health: Contains heart-healthy fats and nutrients like magnesium and potassium, which help maintain cardiovascular health\n• Promotes digestion: High in dietary fiber from nuts, seeds, and dried fruits, it aids in better digestion and gut health\n• Strengthens immunity: Rich in antioxidants and micronutrients, it helps combat oxidative stress and strengthens the immune system\n• Suitable for all ages: A wholesome treat free from refined sugar, making it a healthy and enjoyable option for kids, adults, and seniors"
+},
+{ "id": 8, "name": "Saffron(Kashmiri Kesar) - 1gm", "price": 440.0, "img": "/dryfruits/exclusive/saffron.png",
+"images":["/dryfruits/exclusive/saffron.png","/dryfruits/exclusive/saffron.png","/dryfruits/exclusive/saffron.png"],
+"shortDescription": "Elevate your dishes with our luxurious saffron threads, offering a rich, floral flavor and vibrant color. Ideal for gourmet cooking and special occasions.",
+"description": "Kashmiri saffron is renowned for its high concentration of crocin, picrocrocin, and safranal, compounds responsible for its vibrant color, distinctive flavor, and numerous health benefits. It is often used as a key ingredient in gourmet cooking, adding a golden hue and a unique, earthy aroma to dishes like biryanis, desserts, and traditional beverages such as saffron milk or kahwa. Beyond its culinary uses, saffron is prized in traditional medicine for its ability to improve mood, support digestion, enhance skin health, and boost overall vitality. This exotic spice also holds cultural and spiritual significance, often used in rituals and celebrations as a symbol of purity and prosperity. Whether used to elevate culinary creations, enrich skincare routines, or as a thoughtful gift, Kashmiri saffron is a timeless treasure that exemplifies luxury, health, and tradition in every strand.",
+"benefits": "• Enhances mood and reduces stress: Saffron contains compounds like safranal and crocin, which help improve mood and reduce symptoms of anxiety and depression\n• Boosts immunity: Packed with antioxidants, Kashmiri saffron helps combat free radicals, supporting overall immune system health\n• Improves skin health: Known for its anti-inflammatory and antioxidant properties, saffron promotes a radiant complexion and protects against skin damage\n• Supports heart health: Saffron helps regulate blood pressure and cholesterol levels, contributing to better cardiovascular health"
+},
+{ "id": 9, "name": "Pure Shilajit 100% Natural - 15gm", "price": 1499.0, "img": "/dryfruits/exclusive/shilajit.jpeg",
+"images":["/dryfruits/exclusive/shilajit.jpeg","/dryfruits/exclusive/shilajit.jpeg","/dryfruits/exclusive/shilajit.jpeg"],
+"shortDescription": "Unlock the benefits of our pure shilajit resin, known for its rich mineral content and restorative properties. Ideal for daily wellness and vitality.",
+"description": "Pure Shilajit, a 100% natural resin, is a powerful and revered health supplement sourced from the pristine mountainous regions of the Himalayas. This ancient Ayurvedic remedy is formed over centuries by the natural decomposition of plant material and minerals, resulting in a potent, nutrient-rich substance. Renowned for its wide range of health benefits, Pure Shilajit is a natural powerhouse of fulvic acid, humic acid, trace minerals, and bioactive compounds that promote vitality and overall well-being. In traditional medicine, Shilajit has been used to enhance physical strength, boost immunity, and support reproductive health in both men and women. It is also believed to improve joint health, digestion, and metabolic function, making it an all-encompassing natural remedy. Whether consumed as a supplement, dissolved in water, or added to herbal teas, Pure Shilajit offers a holistic approach to health, bringing the ancient wisdom of Ayurveda into modern lifestyles.",
+"benefits": "• Boosts energy and stamina: Pure Shilajit enhances physical performance and combats fatigue by improving cellular energy production\n• Supports brain health: It improves memory, focus, and mental clarity while reducing stress and promoting a calm mind\n• Strengthens immunity: Rich in antioxidants and minerals, Shilajit helps detoxify the body, fight free radicals, and enhance the immune system"
+}
+],
+
+
+
+"berries": [
+{ "id": 1, "name": "Strawberries - Berry Bliss", "price": 138.0, "img": "/dryfruits/berries/straw.png",
+"images":["/dryfruits/berries/straw.png","/dryfruits/berries/straw.png","/dryfruits/berries/straw.png"],
+"shortDescription": "Dried strawberries are a sweet and tangy snack made from ripe strawberries that are carefully dried to preserve their natural flavor and nutrients. Perfect for a healthy, on-the-go treat, they offer a chewy texture and vibrant taste, making them ideal for snacking, baking, or adding to smoothies.",
+"description": "Dried strawberries are a delicious and nutritious snack made by removing the moisture from fresh strawberries. This process intensifies their natural sweetness while maintaining their essential vitamins and antioxidants. Ideal for snacking, baking, or adding to your favorite recipes, they offer a burst of fruity flavor in every bite.",
+"benefits": "• Boosts immune system\n• Supports digestive health\n• Natural energy boost\n• Promotes heart health"
+
+},
+{ "id": 2, "name": "Premium Cranberries", "price": 96.0, "img": "/dryfruits/berries/cranberry.png", 
+"images":["/dryfruits/berries/cranberry.png","/dryfruits/berries/cranberry.png","/dryfruits/berries/cranberry.png"],
+"shortDescription": "Cranberries are vibrant, tangy berries packed with antioxidants, vitamins, and fiber. Perfect for snacking, baking, or adding a flavorful twist to recipes, they are a healthy and versatile superfood.",
+"description": "Cranberries are small, tart berries celebrated for their bold flavor and numerous health benefits. Rich in antioxidants, vitamins, and dietary fiber, they support urinary tract health, boost immunity, and promote overall well-being. Perfect for snacking, baking, or enhancing salads and sauces, cranberries add a nutritious and flavorful touch to any dish.",
+"benefits": "• Rich in antioxidants\n• Boosts immunity\n• Good for oral health\n• Low in calories"
+
+},
+{ "id": 3, "name": "BlueBerries - Health Boost", "price": 240.0, "img": "/dryfruits/berries/blue.png",
+"images":["/dryfruits/berries/blue.png","/dryfruits/berries/blue.png","/dryfruits/berries/blue.png"],
+"shortDescription": "Blueberries are delicious, antioxidant-rich berries packed with essential vitamins and nutrients. Known for their sweet-tart flavor, they promote brain health, support heart health, and boost immunity, making them a perfect addition to any healthy diet.",
+"description": "Blueberries are small, nutrient-dense berries renowned for their rich antioxidant content. Packed with vitamins and fiber, they support brain function, enhance heart health, and boost the immune system, making them a versatile and healthy addition to your diet. Whether enjoyed fresh, frozen, or dried, blueberries offer a naturally sweet and nutritious treat.",
+"benefits": ""
+},
+{ "id": 4, "name": "Blackberry Plum", "price": 96.0, "img": "/dryfruits/berries/black.png",
+"images":["/dryfruits/berries/black.png","/dryfruits/berries/black.png","/dryfruits/berries/black.png"],
+"shortDescription": "Rich, juicy, and bursting with flavor. Our Blackberry Plum is a delightful treat packed with antioxidants and natural sweetness. Perfect for snacking or adding to your favorite recipes!",
+"description": "Rich, juicy, and bursting with flavor. Our Blackberry Plum is a delightful treat packed with antioxidants and natural sweetness. Perfect for snacking or adding to your favorite recipes!",
+"benefits": ""
+}
+],
+
+
+
+"seeds-more": [
+{ "id": 1, "name": "Flax Seeds Plain", "price": 38.0, "img": "/dryfruits/seeds/flax.jpg",
+"images":["/dryfruits/seeds/flax.jpg","/dryfruits/seeds/flax.jpg","/dryfruits/seeds/flax.jpg"],
+"shortDescription": "Flax seeds are small, nutrient-dense seeds packed with omega-3 fatty acids, fiber, and antioxidants. They support heart health, aid digestion, and provide a natural source of energy, making them a versatile addition to smoothies, baked goods, or as a topping for meals.",
+"description": "Flax seeds are tiny but powerful seeds that offer a wide range of health benefits. Known for their rich content of omega-3 fatty acids, particularly alpha-linolenic acid (ALA), flax seeds help support heart health by reducing inflammation and promoting healthy cholesterol levels. These seeds are also packed with dietary fiber, which aids digestion, supports healthy bowel movements, and helps regulate blood sugar levels.",
+"benefits": ""
+},
+{ "id": 2, "name": "Sunflower Seeds", "price": 68.0, "img": "/dryfruits/seeds/sun.jpg",
+"images":["/dryfruits/seeds/sun.jpg","/dryfruits/seeds/sun.jpg","/dryfruits/seeds/sun.jpg"],
+"shortDescription": "Sunflower seeds are nutrient-packed snacks rich in healthy fats, protein, and antioxidants. They support heart health, boost immunity, and provide a natural source of energy, making them a perfect addition to salads, smoothies, or enjoyed on their own.",
+"description": "Sunflower seeds are small, crunchy seeds that pack a powerful nutritional punch. Rich in healthy fats, particularly polyunsaturated and monounsaturated fats, they promote heart health by helping to lower bad cholesterol levels. These seeds are also an excellent source of plant-based protein, making them a great addition to vegetarian and vegan diets. High in antioxidants, including vitamin E, sunflower seeds help protect the body from oxidative stress and support skin health. They are also a rich source of minerals like magnesium, selenium, and zinc, which play key roles in immune function.",
+"benefits": ""
+},
+{ "id": 3, "name": "Pumpkin Seeds", "price": 88.0, "img": "/dryfruits/seeds/pump.jpg",
+"images":["/dryfruits/seeds/pump.jpg","/dryfruits/seeds/pump.jpg","/dryfruits/seeds/pump.jpg"],
+"shortDescription": "Pumpkin seeds, also known as pepitas, are nutrient-dense seeds that offer a rich source of protein, healthy fats, and antioxidants. Packed with vitamins and minerals, they support heart health, boost immunity, and provide natural energy, making them a versatile addition to your diet.",
+"description": "Pumpkin seeds are small but mighty seeds packed with essential nutrients, including protein, healthy fats, and a variety of vitamins and minerals. Known for their high content of magnesium, zinc, and iron, these seeds contribute to bone health, improve immune function, and promote healthy blood circulation. Rich in antioxidants such as vitamin E and carotenoids, pumpkin seeds help protect the body against oxidative stress and support skin health. They are also an excellent source of fiber, which aids digestion, promotes gut health, and helps maintain a feeling of fullness.",
+"benefits": ""
+},
+{ "id": 4, "name": "Watermelon Seeds", "price": 108.0, "img": "/dryfruits/seeds/water.jpg",
+"images":["/dryfruits/seeds/water.jpg","/dryfruits/seeds/water.jpg","/dryfruits/seeds/water.jpg"],
+"shortDescription": "Watermelon seeds are a powerhouse of nutrients, offering a crunchy, nutty flavor. Packed with protein, healthy fats, and essential minerals, they’re a perfect snack or addition to salads, smoothies, and baked goods.",
+"description": "Watermelon seeds are a hidden gem of nutrition, offering a wealth of health benefits in every tiny seed. Naturally rich in plant-based protein, healthy fats, and essential nutrients like magnesium, zinc, and iron, they support muscle health, boost immunity, and promote overall well-being.",
+"benefits": ""
+},
+{ "id": 5, "name": "Ginger Cubes", "price": 85.0, "img": "/dryfruits/seeds/ginger.jpg",
+"images":["/dryfruits/seeds/ginger.jpg","/dryfruits/seeds/ginger.jpg","/dryfruits/seeds/ginger.jpg"],
+"shortDescription": "Deliciously chewy and naturally soothing, our Ginger Cubes are the perfect blend of sweet and spicy.",
+"description": "Deliciously chewy and naturally soothing, our Ginger Cubes are the perfect blend of sweet and spicy.",
+"benefits": ""
+},
+{ "id": 6, "name": "Amla Sweet", "price": 38.0, "img": "/dryfruits/seeds/amla.jpg",
+"images":["/dryfruits/seeds/amla.jpg","/dryfruits/seeds/amla.jpg","/dryfruits/seeds/amla.jpg"],
+"shortDescription": "Our Amla Sweet is a tasty treat packed with Vitamin C and natural goodness. Perfect for boosting immunity and satisfying your cravings the healthy way!",
+"description": "Our Amla Sweet is a tasty treat packed with Vitamin C and natural goodness. Perfect for boosting immunity and satisfying your cravings the healthy way!",
+"benefits": ""
+},
+{ "id": 7, "name": "Amla Pepper", "price": 50.0, "img": "/dryfruits/seeds/pepper.jpg",
+"images":["/dryfruits/seeds/pepper.jpg","/dryfruits/seeds/pepper.jpg","/dryfruits/seeds/pepper.jpg"],
+"shortDescription": "Our Amla Masala combines tangy amla with flavorful spices for a snack that’s tasty and packed with health benefits. Perfect for boosting immunity and satisfying cravings.",
+"description": "Our Amla Pepper combines tangy amla with flavorful spices for a snack that’s tasty and packed with health benefits. Perfect for boosting immunity and satisfying cravings.",
+"benefits": ""
+},
+{ "id": 8, "name": "Chia Seeds", "price": 80.0, "img": "/dryfruits/seeds/chia.jpg", 
+"images":["/dryfruits/seeds/chia.jpg","/dryfruits/seeds/chia.jpg","/dryfruits/seeds/chia.jpg"],
+"shortDescription": "Chia Seeds are a powerhouse of omega-3s, fiber, and protein. Perfect for smoothies, salads, or healthy baking. Add a sprinkle of wellness to your day.",
+"description": "Chia Seeds are a powerhouse of omega-3s, fiber, and protein. Perfect for smoothies, salads, or healthy baking. Add a sprinkle of wellness to your day.",
+"benefits": ""
+},
+{ "id": 9, "name": "Flax Seed Roasted", "price": 38.0, "img": "/dryfruits/seeds/flax-r.jpg",
+"images":["/dryfruits/seeds/flax-r.jpg","/dryfruits/seeds/flax-r.jpg","/dryfruits/seeds/flax-r.jpg"],
+"shortDescription": "Our Roasted Flax Seeds are rich in omega-3s, fiber, and antioxidants, perfect for snacking or adding to your meals. Stay healthy, the tasty way!",
+"description": "Our Roasted Flax Seeds are rich in omega-3s, fiber, and antioxidants, perfect for snacking or adding to your meals. Stay healthy, the tasty way!",
+"benefits": ""
+},
+{ "id": 10, "name": "Amla Whole", "price": 50.0, "img": "/dryfruits/seeds/amlawhole.jpg",
+"images":["/dryfruits/seeds/amlawhole.jpg","/dryfruits/seeds/amlawhole.jpg","/dryfruits/seeds/amlawhole.jpg"],
+"shortDescription": "Discover the Power of Amla: Nature's Superfruit. Packed with Vitamin C and antioxidants for immunity and glowing skin. A wholesome way to boost health, energy, and vitality every day!",
+"description": "Amla, also known as Indian gooseberry, is a revered superfruit celebrated for its exceptional health benefits and rich nutritional profile. Known as a powerhouse of Vitamin C, amla is packed with antioxidants, essential nutrients, and bioactive compounds that promote overall well-being. These small, green fruits are widely used in traditional Ayurvedic medicine for their ability to enhance immunity, improve digestion, and support healthy skin and hair. Amla is rich in tannins and polyphenols, which help combat oxidative stress, reduce inflammation, and protect the body from harmful free radicals.",
+"benefits": "• Boosts immunity: Packed with Vitamin C and powerful antioxidants, amla strengthens the immune system and fights infections\n• Promotes healthy skin and hair: Amla enhances skin radiance, reduces signs of aging, and supports strong, lustrous hair growth\n• Improves digestion: Its high fiber content aids digestion, supports gut health, and helps detoxify the body naturally"
+}
+],
+
+
+
+"gift-box": [
+{ "id": 1, "name": "Gift Box (PR-24-EA1/EA2)", "img": "/dryfruits/giftbox/gift1.jpg" },
+{ "id": 2, "name": "Gift Box (PR-24-EB1/EB2)",  "img": "/dryfruits/giftbox/2.jpg" },
+{ "id": 3, "name": "Gift Box (PR-24-D1/D2)",  "img": "/dryfruits/giftbox/3.jpg" },
+{ "id": 4, "name": "Gift Box (PR-24-c1/c2)",  "img": "/dryfruits/giftbox/4.jpg" },
+{ "id": 5, "name": "Gift Box (PR-24-l1)",  "img": "/dryfruits/giftbox/5.jpg" },
+{ "id": 6, "name": "Gift Box (PR-24-A1/B1)",  "img": "/dryfruits/giftbox/6.jpg" },
+{ "id": 8, "name": "Gift Box (PR-24-A1/B1)",  "img": "/dryfruits/giftbox/8.jpg" },
+{ "id": 9, "name": "Gift Box (PR-24-A1/B1)",  "img": "/dryfruits/giftbox/9.jpg" },
+{ "id": 10, "name": "Gift Box (PR-24-F1/F2)",  "img": "/dryfruits/giftbox/10.jpg" },
+{ "id": 11, "name": "Gift Box (BS-24-G1/G2)",  "img": "/dryfruits/giftbox/10.jpg" },
+{ "id": 12, "name": "Gift Box (BS-24-S1/S2)",  "img": "/dryfruits/giftbox/10.jpg" },
+{ "id": 13, "name": "Gift Box (BS-24-D1/D2)",  "img": "/dryfruits/giftbox/11.jpg" },
+{ "id": 14, "name": "Gift Box (BS-24-C1/C2)",  "img": "/dryfruits/giftbox/12.jpg" },
+{ "id": 15, "name": "Gift Box (BS-24-C1/C2)",  "img": "/dryfruits/giftbox/13.jpg" },
+{ "id": 16, "name": "Gift Box (BS-24-C1/C2)",  "img": "/dryfruits/giftbox/14.jpg" },
+{ "id": 17, "name": "Gift Box (BS-24-C1/C2)",  "img": "/dryfruits/giftbox/15.jpg" },
+{ "id": 18, "name": "Gift Box (BS-24-C1/C2)",  "img": "/dryfruits/giftbox/16.jpg" },
+{ "id": 19, "name": "Gift Box (BS-24-H1/H2)",  "img": "/dryfruits/giftbox/17.jpg" },
+{ "id": 20, "name": "Gift Box (BS-24-MA1/MA2/MA3)",  "img": "/dryfruits/giftbox/18.jpg" },
+{ "id": 21, "name": "Gift Box (BS-24-MA1/MA2/MA3)",  "img": "/dryfruits/giftbox/19.jpg" },
+{ "id": 22, "name": "Gift Box (BS-24-NA1/NB1)",  "img": "/dryfruits/giftbox/20.jpg" },
+{ "id": 23, "name": "Gift Box (BS-24-NA1/NB1)",  "img": "/dryfruits/giftbox/21.jpg" },
+{ "id": 24, "name": "Gift Box (BS-24-R2/R3/R4)",  "img": "/dryfruits/giftbox/22.jpg" },
+{ "id": 25, "name": "Gift Box (BS-24-R2/R3/R4)",  "img": "/dryfruits/giftbox/23.jpg" },
+{ "id": 26, "name": "Gift Box (BS-24-IA1/IA2)",  "img": "/dryfruits/giftbox/24.jpg" },
+{ "id": 27, "name": "Gift Box (BS-24-L1/L2)",  "img": "/dryfruits/giftbox/25.jpg" },
+{ "id": 28, "name": "Gift Box (BS-24-A1/A2)",  "img": "/dryfruits/giftbox/26.jpg" },
+{ "id": 29, "name": "Gift Box (BS-24-J1/J2)",  "img": "/dryfruits/giftbox/27.jpg" },
+{ "id": 30, "name": "Gift Box (SP-24-J1)",  "img": "/dryfruits/giftbox/28.jpg" },
+{ "id": 31, "name": "Gift Box (SP-24-F1/F2)",  "img": "/dryfruits/giftbox/29.jpg" },
+{ "id": 32, "name": "Gift Box (SP-24-H1/H2)",  "img": "/dryfruits/giftbox/30.jpg" },
+{ "id": 33, "name": "Gift Box (SP-24-A1/A2)",  "img": "/dryfruits/giftbox/31.jpg" },
+{ "id": 34, "name": "Gift Box (SP-24-E1/E2)",  "img": "/dryfruits/giftbox/32.jpg" },
+{ "id": 35, "name": "Gift Box (SP-24-L1/L2)",  "img": "/dryfruits/giftbox/33.jpg" },
+{ "id": 36, "name": "Gift Box (SP-24-M1)",  "img": "/dryfruits/giftbox/34.jpg" },
+{ "id": 37, "name": "Gift Box (SP-24-H1/H2)",  "img": "/dryfruits/giftbox/35.jpg" },
+{ "id": 38, "name": "Gift Box (SP-24-G1)",  "img": "/dryfruits/giftbox/36.jpg" },
+{ "id": 39, "name": "Gift Box (SP-24-C1/C2)",  "img": "/dryfruits/giftbox/37.jpg" },
+{ "id": 40, "name": "Gift Box (SP-24-D1/D2)",  "img": "/dryfruits/giftbox/38.jpg" },
+{ "id": 41, "name": "Gift Box (SP-24-I1)",  "img": "/dryfruits/giftbox/39.jpg" },
+{ "id": 42, "name": "Gift Box (SP-24-K1)",  "img": "/dryfruits/giftbox/40.jpg" },
+{ "id": 43, "name": "Gift Box (SP-24-G1/G2)",  "img": "/dryfruits/giftbox/41.jpg" },
+{ "id": 44, "name": "Gift Box (PR-24-H1)",  "img": "/dryfruits/giftbox/42.jpg" },
+{ "id": 45, "name": "Gift Box (PR-24-J1)",  "img": "/dryfruits/giftbox/43.jpg" },
+{ "id": 46, "name": "Gift Box (BS-24-J1/J2)",  "img": "/dryfruits/giftbox/44.jpg" },
+{ "id": 47, "name": "Gift Box (BS-24-R1/R2)",  "img": "/dryfruits/giftbox/45.jpg" },
+{ "id": 48, "name": "Gift Box (BS-24-R1/R2)",  "img": "/dryfruits/giftbox/46.jpg" },
+{ "id": 49, "name": "Gift Box (BS-24-P1/P2/P3)",  "img": "/dryfruits/giftbox/47.jpg" },
+{ "id": 50, "name": "Gift Box (BS-24-T1/T2)",  "img": "/dryfruits/giftbox/48.jpg" },
+{ "id": 51, "name": "Gift Box (BS-24-KA1/KB1/KB2)",  "img": "/dryfruits/giftbox/49.jpg" },
+{ "id": 52, "name": "Gift Box (BS-24-EA1/EB1)",  "img": "/dryfruits/giftbox/50.jpg" }
+]
+}
