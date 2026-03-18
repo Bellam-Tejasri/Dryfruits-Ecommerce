@@ -18,8 +18,8 @@ export default function CartPage() {
       <Navbar />
 
       {/* Banner */}
-      <div className="relative w-full h-40 md:h-64 bg-[#6D4C41] flex items-center justify-center">
-        <h1 className="text-white text-3xl md:text-5xl font-bold">Shopping Cart</h1>
+      <div className="relative w-full h-10 md:h-16 bg-[#6D4C41] flex items-center justify-center">
+        <h1 className="text-white text-xl md:text-3xl font-bold">Shopping Cart</h1>
       </div>
 
       <section className="flex-grow py-8 px-4 md:px-10">

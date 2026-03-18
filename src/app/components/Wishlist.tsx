@@ -45,7 +45,7 @@ export default function WishlistPage() {
     setTimeout(() => setGlobalMessage(""), 2000);
   };
 
-  {/* Clear all items */}
+  {/* Clear all items */ }
   const handleClearAll = () => {
     if (wishlist.length === 0) return;
     wishlist.forEach(item => removeFromWishlist(item.id, item.slug));
@@ -55,22 +55,27 @@ export default function WishlistPage() {
 
 
 
-  {/* Empty WishList */}
+  {/* Empty WishList */ }
   if (wishlist.length === 0) {
     return (
       <div className="bg-white">
         <Header />
         <Navbar />
-        <section className="relative w-auto h-auto md:h-80">
-          <img src="/banner/return.jpg" alt="Wishlist" className="w-auto h-auto object-cover" />
-          <div className="absolute inset-0 px-40">
-            <h1 className="text-3xl md:text-5xl mt-25 font-bold text-white">Wishlist</h1>
-            <p className="mt-2 text-gray-200 text-sm md:text-base">Home <span className="mx-2">-</span> Wishlist</p>
-          </div>
-        </section>
-        <h2 className="text-3xl font-bold text-center text-black mt-3 mb-10">
-          Your Wishlist is Empty
-        </h2>
+        <div className="relative w-full h-10 md:h-16 bg-[#6D4C41] flex items-center justify-center">
+          <h1 className="text-white text-xl md:text-3xl font-bold">Wishlist</h1>
+        </div>
+        {/* Banner */}
+        <div className="text-center py-20">
+          <Heart className="w-20 h-20 text-gray-300 mx-auto mb-6" />
+          <h2 className="text-2xl font-semibold text-gray-800 mb-3">Your Cart is Empty</h2>
+          <p className="text-gray-600 mb-8">Browse our collection and add your favorite dry fruits!</p>
+          <Link
+            href="/collections/nuts-dryfruits"
+            className="px-6 py-3 bg-[#6D4C41] text-white rounded-lg hover:bg-black transition font-semibold inline-block"
+          >
+            Continue Shopping
+          </Link>
+        </div>
         <FeaturedBox />
         <Footer />
       </div>
@@ -78,7 +83,7 @@ export default function WishlistPage() {
   }
 
 
-  {/* Wishlist */}
+  {/* Wishlist */ }
   return (
     <div className="bg-white mx-auto w-full">
       <Header />
@@ -86,24 +91,22 @@ export default function WishlistPage() {
 
       {/* Banner */}
       <section className="relative w-auto h-auto md:h-80">
-        <img src="/banner/return.jpg" alt="Wishlist" className="w-auto h-auto object-cover" />
-        <div className="absolute inset-0 px-40">
-          <h1 className="text-3xl md:text-5xl mt-25 font-bold text-white">Wishlist</h1>
-          <p className="mt-2 text-gray-200 text-sm md:text-base">Home <span className="mx-2">-</span> Wishlist</p>
+        <div className="relative w-full h-10 md:h-16 bg-[#6D4C41] flex items-center justify-center">
+          <h1 className="text-white text-xl md:text-3xl font-bold">Wishlist</h1>
         </div>
       </section>
 
       <div className="px-10">
         <h1 className="text-black font-bold text-center text-3xl">Welcome To Your Wishlist</h1>
-      {wishlist.length > 0 && (
-            <button
-              onClick={handleClearAll}
-              className="bg-[#6D4C41] text-white px-4 py-2 round hover:bg-black hover:underline transition text-right ml-325"
-            >
-              Clear All
-            </button>
-          )}
-          </div>
+        {wishlist.length > 0 && (
+          <button
+            onClick={handleClearAll}
+            className="bg-[#6D4C41] text-white px-4 py-2 round hover:bg-black hover:underline transition text-right ml-325"
+          >
+            Clear All
+          </button>
+        )}
+      </div>
 
       {/* Wishlist Products */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-10 mt-8 mb-10">

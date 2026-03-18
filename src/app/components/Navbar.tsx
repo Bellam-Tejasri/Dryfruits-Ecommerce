@@ -79,7 +79,6 @@ const Navbar: React.FC = () => {
           )}
         </li>
         <li><Link href="/bulk-order" className="hover:text-[#476504]">Bulk Order</Link></li>
-        <li><Link href="/career" className="hover:text-[#476504]">Career</Link></li>
         <li><Link href="/contact" className="hover:text-[#476504]">Contact Us</Link></li>
 
         {/* Wishlist */}
@@ -152,7 +151,6 @@ const Navbar: React.FC = () => {
               </li>
 
               <li><Link href="/bulk-order" onClick={() => setMobileMenuOpen(false)}>Bulk Order</Link></li>
-              <li><Link href="/career" onClick={() => setMobileMenuOpen(false)}>Career</Link></li>
               <li><Link href="/contact" onClick={() => setMobileMenuOpen(false)}>Contact Us</Link></li>
               <li>
                 <Link href="/wishlist" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2">
