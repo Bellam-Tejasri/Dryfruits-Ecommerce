@@ -12,22 +12,10 @@ export default function ContactPage() {
       <Header />
       <Navbar />
 
-      {/* Banner */}
-      <section className="relative w-full h-[180px] sm:h-[220px] md:h-80 overflow-hidden">
-        <img
-          src="/banner/contact.jpg"
-          alt="Contact Banner"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/30 flex flex-col justify-center px-4 sm:px-8 md:px-16 lg:px-40">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
-            Contact Us
-          </h1>
-          <p className="mt-2 text-gray-200 text-sm md:text-base">
-            Home <span className="mx-2">-</span> Contact Us
-          </p>
-        </div>
-      </section>
+      {/*Banner*/}
+      <div className="relative w-full h-10 md:h-16 bg-[#6D4C41] flex items-center justify-center">
+        <h1 className="text-white text-xl md:text-3xl font-bold">Contact Us</h1>
+      </div>
 
       {/* Text */}
       <div className="px-4 sm:px-8 md:px-16 lg:px-40">
@@ -47,7 +35,7 @@ export default function ContactPage() {
               <Phone className="w-6 h-6 mt-1 mr-4 text-white flex-shrink-0" />
               <div>
                 <p className="font-semibold">Reach us on call/whatsapp</p>
-                <p className="mt-1 text-gray-200 hover:text-black">+91-7483600212</p>
+                <p className="mt-1 text-gray-200 hover:text-black">+91-9052586088</p>
               </div>
             </div>
 

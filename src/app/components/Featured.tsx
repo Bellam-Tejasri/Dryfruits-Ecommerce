@@ -14,12 +14,12 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: "Breakfast Mix Seeds", img: "/dryfruits/exclusive/nutritious.png", brand: "Dry Fruit House", slug: "dfh-exclusives" },
-  { id: 2, name: "Best Quality Medjool Dates", img: "/dryfruits/dates/medjool.png", brand: "Dry Fruit House", slug: "dates" },
-  { id: 3, name: "Exquisite Brazil Nuts", img: "/dryfruits/nuts/brazil.jpg", brand: "Dry Fruit House", slug: "nuts-dryfruits" },
-  { id: 4, name: "Premium Almonds", img: "/dryfruits/nuts/organic-almond.jpg", brand: "Dry Fruit House", slug: "nuts-dryfruits" },
-  { id: 5, name: "Luxury Pistachios", img: "/dryfruits/nuts/pista.jpg", brand: "Dry Fruit House", slug: "nuts-dryfruits" },
-  { id: 6, name: "Premium Walnut Kernels", img: "/dryfruits/nuts/walnut.jpg", brand: "Dry Fruit House", slug: "nuts-dryfruits" },
+  { id: 1, name: "Breakfast Mix Seeds", img: "/dryfruits/exclusive/nutritious.png", brand: "Teja Dry Fruit", slug: "dfh-exclusives" },
+  { id: 2, name: "Best Quality Medjool Dates", img: "/dryfruits/dates/medjool.png", brand: "Teja Dry Fruit", slug: "dates" },
+  { id: 3, name: "Exquisite Brazil Nuts", img: "/dryfruits/nuts/brazil.jpg", brand: "Teja Dry Fruit", slug: "nuts-dryfruits" },
+  { id: 4, name: "Premium Almonds", img: "/Nuts/almonds.png", brand: "Teja Dry Fruit", slug: "nuts-dryfruits" },
+  { id: 5, name: "Luxury Pistachios", img: "/Nuts/pista.png", brand: "Teja Dry Fruit", slug: "nuts-dryfruits" },
+  { id: 6, name: "Premium Walnut Kernels", img: "/Nuts/walnut.png", brand: "Teja Dry Fruit", slug: "nuts-dryfruits" },
 ];
 
 const Featured: React.FC = () => {
