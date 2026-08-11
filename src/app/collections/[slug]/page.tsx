@@ -277,7 +277,7 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
                   </>
                 ) : (
                   <a
-                    href="https://wa.me/9052586088"
+                    href="https://wa.me/9948025904"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#6D4C41] text-white text-sm py-1.5 px-3 rounded hover:bg-black transition flex items-center gap-2"

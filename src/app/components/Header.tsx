@@ -29,11 +29,11 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-5 text-gray-300 font-extralight">
             <span className="flex items-center gap-1">
               <Smartphone className="w-5 h-5 text-white" />
-              +91-7483600212
+              +91-9948025904
             </span>
             <span className="flex items-center gap-1">
               <Mail className="w-5 h-5 text-white" />
-              info@dryfruithouse.com
+              tejadryfruits@gmail.com
             </span>
           </div>
 

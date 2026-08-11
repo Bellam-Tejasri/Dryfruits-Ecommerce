@@ -181,7 +181,7 @@ export default function WishlistPage() {
                   </Link>
                 ) : (
                   <a
-                    href="https://wa.me/9052586088"
+                    href="https://wa.me/9948025904"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#6D4C41] text-white mt-2 text-sm py-1 px-3 w-45 h-8 rounded hover:bg-black transition flex items-center gap-2"

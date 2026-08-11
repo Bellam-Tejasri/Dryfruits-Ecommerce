@@ -94,19 +94,21 @@ const Footer: React.FC = () => {
             <li className="flex flex-col sm:flex-row items-start gap-2">
               <Landmark className="w-8 h-8 text-black mt-1 sm:mt-0 flex-shrink-0" />
               <span className='text-sm'>
-                NR TOWERS, 17th Cross, Sector 4, 19th Main Rd, HSR Layout, Bengaluru - 560102
+                Beside Sangam Dairy,<br />
+                  Opp SBI Bank, Parchur road,<br />
+                  Inkollu, Andhra Pradesh 523167
               </span>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-black flex-shrink-0" />
-              <a href="mailto:info@dryfruithouse.com" className='text-sm'>
-                info@dryfruithouse.com
+              <a href="mailto:tejadryfruits@gmail.com" className='text-sm'>
+                tejadryfruits@gmail.com
               </a>
             </li>
             <li className="flex items-center gap-2">
               <PhoneForwarded className="w-5 h-5 text-black flex-shrink-0" />
-              <a href="tel:+91-9052586088">
-                +91-9052586088
+              <a href="tel:+91-9948025904">
+                +91-9948025904
               </a>
             </li>
           </ul>

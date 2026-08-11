@@ -47,7 +47,7 @@ export default function ContactPage() {
               <Phone className="w-8 h-8 mt-1 mr-4 text-white" />
               <div>
                 <p className="font-semibold">Reach us on call/whatsapp</p>
-                <p className="mt-1 text-gray-200 hover:text-black">+91-7483600212</p>
+                <p className="mt-1 text-gray-200 hover:text-black">+91-9948025904</p>
               </div>
             </div>
 
@@ -55,18 +55,18 @@ export default function ContactPage() {
               <Mail className="w-6 h-6 mt-12 mr-4 text-white" />
               <div>
                 <p className="font-semibold text-xl">Email Address</p>
-                <p className="mt-5 text-gray-200 hover:text-black">info@dryfruithouse.com</p>
+                <p className="mt-5 text-gray-200 hover:text-black">tejadryfruits@gmail.com</p>
               </div>
             </div>
 
             <div className="flex px-5 items-start ">
               <MapPin className="w-6 h-6 mt-15 mr-4 text-white" />
               <div>
-                <p className="font-semibold mt-4 text-xl">Office Location</p>
+                <p className="font-semibold mt-4 text-xl">Store Location</p>
                 <p className="text-gray-200 mt-4">
-                  NR Tower, 17th Cross, Sector 4,<br />
-                  19th Main Road, HSR Layout,<br />
-                  Bengaluru, Karnataka 560102
+                  Beside Sangam Dairy,<br />
+                  Opp SBI Bank, Parchur road,<br />
+                  Inkollu, Andhra Pradesh 523167
                 </p>
               </div>
             </div>
