@@ -1,9 +1,9 @@
 "use client";
 
-import FeaturedBox from "../components/FeaturedBox";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
+import FeaturedBox from "@/app/components/FeaturedBox";
+import Footer from "@/app/components/Footer";
+import Header from "@/app/components/Header";
+import Navbar from "@/app/components/Navbar";
 import {Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram,} from "lucide-react";
 
 export default function ContactPage() {
@@ -79,7 +79,15 @@ export default function ContactPage() {
               <Facebook className="w-6 h-6 cursor-pointer hover:text-gray-300" />
               <Twitter className="w-6 h-6 cursor-pointer hover:text-gray-300" />
               <Linkedin className="w-6 h-6 cursor-pointer hover:text-gray-300" />
-              <Instagram className="w-6 h-6 cursor-pointer hover:text-gray-300" />
+
+              <a
+                href="https://www.instagram.com/teja_dryfruits/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-6 h-6 cursor-pointer hover:text-gray-300" />
+              </a>
             </div>
           </div>
         </div>

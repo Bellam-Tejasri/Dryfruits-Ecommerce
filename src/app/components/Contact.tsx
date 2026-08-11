@@ -67,7 +67,15 @@ export default function ContactPage() {
               <Facebook className="w-6 h-6 cursor-pointer hover:text-gray-300" />
               <Twitter className="w-6 h-6 cursor-pointer hover:text-gray-300" />
               <Linkedin className="w-6 h-6 cursor-pointer hover:text-gray-300" />
-              <Instagram className="w-6 h-6 cursor-pointer hover:text-gray-300" />
+
+              <a
+                href="https://www.instagram.com/teja_dryfruits/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-6 h-6 cursor-pointer hover:text-gray-300" />
+              </a>
             </div>
           </div>
         </div>

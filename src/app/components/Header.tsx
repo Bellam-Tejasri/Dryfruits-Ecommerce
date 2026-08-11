@@ -39,12 +39,43 @@ const Header: React.FC = () => {
 
           {/* Social Media & Profile */}
           <div className="flex items-center gap-3">
-            <a href="#" className="hover:text-gray-300"><Facebook className="w-5 h-5 text-white fill-white" /></a>
-            <a href="#" className="hover:text-gray-300"><Twitter className="w-5 h-5 text-white fill-white" /></a>
-            <a href="#" className="hover:text-gray-300"><Instagram className="w-5 h-5 text-white" /></a>
-            <a href="#" className="hover:text-gray-300"><Linkedin className="w-5 h-5 text-white fill-white" /></a>
+            <a
+              href="#"
+              className="hover:text-gray-300"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-5 h-5 text-white fill-white" />
+            </a>
+
+            <a
+              href="#"
+              className="hover:text-gray-300"
+              aria-label="Twitter"
+            >
+              <Twitter className="w-5 h-5 text-white fill-white" />
+            </a>
+
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/teja_dryfruits/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-300"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-5 h-5 text-white" />
+            </a>
+
+            <a
+              href="#"
+              className="hover:text-gray-300"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="w-5 h-5 text-white fill-white" />
+            </a>
+
             <div className="relative">
-              <button 
+              <button
                 data-profile-button
                 onClick={handleProfileClick}
                 className="hover:text-gray-300 ml-3 pl-3 border-l border-gray-400 cursor-pointer transition"
@@ -58,7 +89,7 @@ const Header: React.FC = () => {
         {/* Mobile Content */}
         <div className="block md:hidden w-full flex justify-between items-center">
           <span className="text-xs text-gray-200 font-light">Teja Dry Fruits</span>
-          <button 
+          <button
             onClick={handleProfileClick}
             className="hover:text-gray-300 cursor-pointer transition"
           >
