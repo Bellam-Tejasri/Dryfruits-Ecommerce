@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useAuth } from '@/app/context/AuthContext';
 import { useOrders, Order } from '@/app/context/OrderContext';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import Header from '@/app/components/Header';
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
@@ -141,7 +142,7 @@ export default function OrdersPage() {
                       <div className="space-y-3 mb-4">
                         {order.items.map((item, i) => (
                           <div key={i} className="flex gap-3 items-center">
-                            <img src={item.img} alt={item.name} className="w-12 h-12 object-cover rounded" />
+                            <Image src={item.img} alt={item.name} width={48} height={48} className="w-12 h-12 object-cover rounded" />
                             <div className="flex-1 min-w-0">
                               <p className="text-sm font-medium text-gray-800 truncate">{item.name}</p>
                               <p className="text-xs text-gray-500">{item.weight} x {item.quantity}</p>

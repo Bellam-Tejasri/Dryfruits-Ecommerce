@@ -108,6 +108,7 @@
 "use client";
 
 import "keen-slider/keen-slider.min.css";
+import Image from "next/image";
 import { useKeenSlider } from "keen-slider/react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -177,22 +178,22 @@ export default function HeroCarousel() {
         className="keen-slider relative aspect-square sm:aspect-video md:aspect-[16/6] lg:aspect-[16/5]"
       >
         <div className="keen-slider__slide">
-          <img src="/banner/Banner.png" className="w-full h-auto object-cover" alt="Banner 1" />
+          <Image src="/banner/Banner.png" width={1536} height={1024} priority sizes="100vw" className="w-full h-auto object-cover" alt="Banner 1" />
         </div>
         <div className="keen-slider__slide">
-          <img src="/banner/Banner1.png" className="w-full h-auto object-cover" alt="Banner 2" />
+          <Image src="/banner/Banner1.png" width={1536} height={1024} sizes="100vw" className="w-full h-auto object-cover" alt="Banner 2" />
         </div>
         <div className="keen-slider__slide">
-          <img src="/banner/Banner2.png" className="w-full h-auto object-cover" alt="Banner 3" />
+          <Image src="/banner/Banner2.png" width={1536} height={1024} sizes="100vw" className="w-full h-auto object-cover" alt="Banner 3" />
         </div>
         <div className="keen-slider__slide">
-          <img src="/banner/Banner3.png" className="w-full h-full object-cover" alt="Banner 4" />
+          <Image src="/banner/Banner3.png" width={1536} height={1024} sizes="100vw" className="w-full h-full object-cover" alt="Banner 4" />
         </div>
         <div className="keen-slider__slide">
-          <img src="/banner/Banner4.png" className="w-full h-auto object-cover" alt="Banner 5" />
+          <Image src="/banner/Banner4.png" width={1536} height={1024} sizes="100vw" className="w-full h-auto object-cover" alt="Banner 5" />
         </div>
         <div className="keen-slider__slide">
-          <img src="/banner/Banner5.png" className="w-full h-full object-cover" alt="Banner 5" />
+          <Image src="/banner/Banner5.png" width={1536} height={1024} sizes="100vw" className="w-full h-full object-cover" alt="Banner 6" />
         </div>
       </div>
 

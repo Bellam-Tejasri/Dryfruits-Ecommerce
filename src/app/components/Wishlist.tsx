@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Header from "@/app/components/Header";
@@ -117,16 +118,22 @@ export default function WishlistPage() {
             <div className="relative w-full h-auto bg-white flex items-center justify-center">
               {product.slug !== "gift-box" ? (
                 <Link href={`/product/${product.slug}/${product.id}`}>
-                  <img
+                  <Image
                     src={product.img}
                     alt={product.name}
+                    width={800}
+                    height={800}
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                     className="w-full h-auto object-cover hover:scale-105 transition cursor-pointer"
                   />
                 </Link>
               ) : (
-                <img
+                <Image
                   src={product.img}
                   alt={product.name}
+                  width={800}
+                  height={800}
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                   className="w-full h-auto object-cover"
                 />
               )}

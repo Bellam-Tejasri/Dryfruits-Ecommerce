@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight, Heart, ShoppingCart } from "lucide-react";
 import { useParams } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import productsData from "@/app/app.json";
@@ -114,9 +115,13 @@ export default function ProductPage() {
         {/* Left: Image */}
         <div className="flex flex-col items-center w-full">
           <div className="relative w-full max-w-md">
-            <img
+            <Image
               src={currentImage}
               alt={product.name}
+              width={800}
+              height={800}
+              priority
+              sizes="(max-width: 768px) 100vw, 448px"
               className="w-full max-w-md h-auto rounded"
             />
 
@@ -166,8 +171,10 @@ export default function ProductPage() {
                       className="p-1 rounded border border-gray-200 flex-shrink-0 cursor-pointer"
                       onClick={() => setSelectedImage(img)}
                     >
-                      <img src={img}
+                      <Image src={img}
                       alt={product.name}
+                      width={80}
+                      height={80}
                       className="h-16 sm:h-20 w-auto rounded" />
                     </div>
                   ))}
@@ -224,19 +231,19 @@ export default function ProductPage() {
           <div className="border rounded p-3 shadow-sm mb-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div className="flex flex-col items-center">
-                <img src="/icons/healthy-heart.png" alt="Healthy Heart" className="w-12 h-12 mb-2" />
+                <Image src="/icons/healthy-heart.png" alt="Healthy Heart" width={74} height={74} className="w-12 h-12 mb-2" />
                 <p className="text-sm text-black font-medium">Healthy Heart</p>
               </div>
               <div className="flex flex-col items-center">
-                <img src="/icons/high-protein.png" alt="High Nutrition" className="w-12 h-12 mb-2" />
+                <Image src="/icons/high-protein.png" alt="High Nutrition" width={74} height={74} className="w-12 h-12 mb-2" />
                 <p className="text-sm text-black font-medium">High Nutrition</p>
               </div>
               <div className="flex flex-col items-center">
-                <img src="/icons/gulten-free.png" alt="Gluten Free" className="w-12 h-12 mb-2" />
+                <Image src="/icons/gulten-free.png" alt="Gluten Free" width={74} height={74} className="w-12 h-12 mb-2" />
                 <p className="text-sm text-black font-medium">Gluten Free</p>
               </div>
               <div className="flex flex-col items-center">
-                <img src="/icons/calestrol-free.png" alt="Cholesterol Free" className="w-12 h-12 mb-2" />
+                <Image src="/icons/calestrol-free.png" alt="Cholesterol Free" width={74} height={74} className="w-12 h-12 mb-2" />
                 <p className="text-sm text-black font-medium">Cholesterol Free</p>
               </div>
             </div>

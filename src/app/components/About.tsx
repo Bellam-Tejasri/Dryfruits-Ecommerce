@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Header from "@/app/components/Header";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
@@ -17,10 +18,13 @@ export default function AboutPage() {
 
       {/*Banner*/}
       <section className="relative w-full h-[180px] sm:h-[220px] md:h-80 overflow-hidden">
-        <img
+        <Image
           src="/about/banner.jpg"
-          alt="About Banner"
-          className="w-full h-full object-cover"
+          alt="About Us Banner"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-black/30 flex flex-col justify-center px-4 sm:px-8 md:px-16 lg:px-40">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
@@ -37,9 +41,12 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 items-start">
           {/*Image */}
           <div>
-            <img
+            <Image
               src="/about/shop.jpg"
               alt="Dry Fruit House Store"
+              width={800}
+              height={600}
+              sizes="(max-width: 768px) 100vw, 448px"
               className="w-full max-w-md h-auto rounded-lg"
             />
           </div>
@@ -92,10 +99,12 @@ export default function AboutPage() {
 
       {/*Banner2*/}
       <section className="relative w-full h-[200px] sm:h-[250px] md:h-80 overflow-hidden">
-        <img
+        <Image
           src="/about/banner2.jpg"
-          alt="About Banner"
-          className="w-full h-full object-cover"
+          alt="Curated foods from India and across the world"
+          fill
+          sizes="100vw"
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-black/70 flex items-center justify-center px-4 sm:px-8 md:px-16">
           <h1 className="text-lg sm:text-2xl md:text-3xl text-white text-center leading-relaxed">
@@ -108,9 +117,12 @@ export default function AboutPage() {
 
       {/* Banner Image */}
       <div className="relative w-full px-4 sm:px-8 md:px-10 py-6 md:py-10">
-        <img
+        <Image
           src="/about/video.jpg"
           alt="Dry Fruits Banner"
+          width={1600}
+          height={600}
+          sizes="100vw"
           className="w-full h-[250px] sm:h-[350px] md:h-[500px] object-cover rounded shadow-lg"
         />
 

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Header from "@/app/components/Header";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
@@ -13,10 +14,13 @@ export default function ReturnPage() {
 
             {/* Banner */}
       <section className="relative w-full h-[180px] sm:h-[220px] md:h-80 overflow-hidden">
-        <img
+        <Image
           src="/banner/return.jpg"
-          alt="About Banner"
-          className="w-full h-full object-cover"
+          alt="Returns Policy Banner"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-black/30 flex flex-col justify-center px-4 sm:px-8 md:px-16 lg:px-40">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">

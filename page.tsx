@@ -4,6 +4,7 @@ import FeaturedBox from "@/app/components/FeaturedBox";
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
 import Navbar from "@/app/components/Navbar";
+import Image from "next/image";
 import {Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram,} from "lucide-react";
 
 export default function ContactPage() {
@@ -13,11 +14,14 @@ export default function ContactPage() {
       <Navbar />
 
       {/* Banner */}
-      <section className="relative w-auto h-auto">
-        <img
+      <section className="relative w-full h-[180px] sm:h-[220px] md:h-80 overflow-hidden">
+        <Image
           src="/banner/contact.jpg"
           alt="Contact Banner"
-          className="w-full h-full object-cover"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
         <div className="absolute px-40 inset-0">
           <h1 className="text-3xl md:text-5xl mt-25 font-bold text-white items-center justify-center">

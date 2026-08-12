@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/Header";
 import Navbar from "@/app/components/Navbar";
@@ -323,7 +324,7 @@ export default function CheckoutPage() {
                   <div className="space-y-3 max-h-60 overflow-y-auto mb-4">
                     {cart.map((item) => (
                       <div key={`${item.id}-${item.category}-${item.weight}`} className="flex gap-3">
-                        <img src={item.img} alt={item.name} className="w-12 h-12 object-cover rounded" />
+                        <Image src={item.img} alt={item.name} width={48} height={48} className="w-12 h-12 object-cover rounded" />
                         <div className="flex-1 min-w-0">
                           <p className="text-sm font-medium text-gray-800 truncate">{item.name}</p>
                           <p className="text-xs text-gray-500">{item.weight} x {item.quantity}</p>

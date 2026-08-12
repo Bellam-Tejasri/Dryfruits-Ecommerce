@@ -38,7 +38,7 @@ export default function AccountPage() {
         email: loginData.emailOrPhone,
       });
       router.push("/");
-    } catch (error) {
+    } catch {
       setLoginError("Login failed. Please try again.");
     }
   };
@@ -65,7 +65,7 @@ export default function AccountPage() {
         email: registerData.email,
       });
       router.push("/");
-    } catch (error) {
+    } catch {
       setRegisterError("Registration failed. Please try again.");
     }
   };
