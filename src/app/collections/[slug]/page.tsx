@@ -11,7 +11,6 @@ import FeaturedBox from "@/app/components/FeaturedBox";
 import Footer from "@/app/components/Footer";
 import { ShoppingCart, Heart } from "lucide-react";
 import { useWishlist } from "@/app/context/WishlistContext";
-import { useCart } from "@/app/context/CartContext";
 
 import {
   Select,
@@ -64,7 +63,6 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
   const [filterType, setFilterType] = useState("");
   const [selectedWeights, setSelectedWeights] = useState<Record<number, string>>({});
   const { wishlist, addToWishlist, removeFromWishlist } = useWishlist();
-  const { addToCart } = useCart();
   const [globalMessage, setGlobalMessage] = useState<string | null>(null);
 
   const products = (productsData as unknown as Record<string, Product[]>)[params.slug];
@@ -258,26 +256,6 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
                         View Details
                       </button>
                     </Link>
-                    <button
-                      onClick={() => {
-                        const weight = selectedWeights[product.id] || "100 gram";
-                        addToCart({
-                          id: product.id,
-                          category: params.slug,
-                          name: product.name,
-                          img: product.img,
-                          price: calculatePrice(product.price, weight),
-                          weight,
-                          quantity: 1,
-                        });
-                        setGlobalMessage("Added to your Cart");
-                        setTimeout(() => setGlobalMessage(null), 2000);
-                      }}
-                      className="bg-[#6D4C41] text-white text-sm py-1.5 px-3 rounded hover:bg-black transition flex items-center justify-center gap-1"
-                    >
-                      <ShoppingCart size={14} />
-                      Add to Cart
-                    </button>
                   </>
                 ) : (
                   <a

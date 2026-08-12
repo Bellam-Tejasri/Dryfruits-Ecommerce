@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useState } from "react";
 import { Heart, Menu, X, ShoppingCart } from "lucide-react";
 import { useWishlist } from "@/app/context/WishlistContext";
-import { useCart } from "@/app/context/CartContext";
 
 const Navbar: React.FC = () => {
   const [showShopMenu, setShowShopMenu] = useState(false);
@@ -13,7 +12,6 @@ const Navbar: React.FC = () => {
   const [mobileShopOpen, setMobileShopOpen] = useState(false); 
   const { wishlist } = useWishlist();
   const wishlistCount = wishlist.length;
-  const { cartCount } = useCart();
 
   return (
     <nav className="sticky top-0 z-50 flex justify-between items-center px-4 md:px-10 py-2 bg-white shadow-md">
@@ -50,14 +48,14 @@ const Navbar: React.FC = () => {
             </span>
           )}
         </Link>
-        <Link href="/cart" className="relative">
+        {/* <Link href="/cart" className="relative">
           <ShoppingCart className="w-6 h-6 text-[#6D4C41]" />
           {cartCount > 0 && (
             <span className="absolute -top-2 -right-2 bg-[#6D4C41] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
               {cartCount}
             </span>
           )}
-        </Link>
+        </Link> */}
       </div>
 
       {/* Desktop Links */}
@@ -99,14 +97,14 @@ const Navbar: React.FC = () => {
 
         {/* Cart */}
         <li className="relative">
-          <Link href="/cart" className="hover:text-[#6D4C41] flex items-center">
+          {/* <Link href="/cart" className="hover:text-[#6D4C41] flex items-center">
             <ShoppingCart className="w-6 h-6 hover:text-[#6D4C41]" />
             {cartCount > 0 && (
               <span className="absolute -top-2 -right-2 bg-[#6D4C41] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
                 {cartCount}
               </span>
             )}
-          </Link>
+          </Link> */}
         </li>
       </ul>
 
@@ -162,12 +160,12 @@ const Navbar: React.FC = () => {
                   Wishlist {wishlistCount > 0 && `(${wishlistCount})`}
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/cart" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2">
                   <ShoppingCart className="w-5 h-5 text-[#6D4C41]" />
                   Cart {cartCount > 0 && `(${cartCount})`}
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

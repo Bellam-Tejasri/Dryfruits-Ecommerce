@@ -5,14 +5,12 @@ import { ChevronLeft, ChevronRight, Heart, ShoppingCart } from "lucide-react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import productsData from "@/app/app.json";
 import Header from "@/app/components/Header";
 import Navbar from "@/app/components/Navbar";
 import FeaturedBox from "@/app/components/FeaturedBox";
 import Footer from "@/app/components/Footer";
 import { useWishlist } from "@/app/context/WishlistContext";
-import { useCart } from "@/app/context/CartContext";
 
 interface Product {
   id: number;
@@ -36,7 +34,6 @@ export default function ProductPage() {
   const params = useParams();
   const category = params.category as string;
   const productId = Number(params.id);
-  const router = useRouter();
 
   const categoryKey = category as keyof typeof productsData;
   const categoryData = productsData[categoryKey] as Product[] | undefined;
@@ -49,7 +46,6 @@ export default function ProductPage() {
   const descriptionRef = useRef<HTMLDivElement>(null);
   const benefitsRef = useRef<HTMLDivElement>(null);
   const [thumbStartIndex, setThumbStartIndex] = useState(0);
-  const { addToCart } = useCart();
   const { wishlist, addToWishlist, removeFromWishlist } = useWishlist();
   const [globalMessage, setGlobalMessage] = useState<string | null>(null);
 
@@ -92,6 +88,19 @@ export default function ProductPage() {
     }
     setTimeout(() => setGlobalMessage(null), 2000);
   };
+
+  function handleWhatsAppOrder(event: React.MouseEvent<HTMLButtonElement>): void {
+    event.preventDefault();
+    // Replace this with your TEJA Dryfruits WhatsApp number (country code, no + or dashes)
+    const whatsappNumber = "919948025904";
+
+    const price = calculatePrice(product!.price, selectedWeight).toFixed(2);
+    const productUrl = `https://dryfruits-ecommerce-nhs9q2o5i-tejasri4.vercel.app/product/${category}/${product!.id}`;
+    const message = `Hi TEJA Dryfruits! \n\nI would like to order:\n\nProduct: ${product!.name}\nWeight: ${selectedWeight}\nPrice: ₹${price}\nQuantity: 1\n\nProduct Details:\n${productUrl}\n\nPlease confirm my order.`;
+
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank");
+  }
 
   return (
     <div className="bg-white">
@@ -251,7 +260,7 @@ export default function ProductPage() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 mb-5">
-            <button
+            {/* <button
               onClick={() => {
                 addToCart({
                   id: product.id,
@@ -269,23 +278,12 @@ export default function ProductPage() {
             >
               <ShoppingCart size={18} />
               Add to Cart
-            </button>
+            </button> */}
             <button
-              onClick={() => {
-                addToCart({
-                  id: product.id,
-                  category,
-                  name: product.name,
-                  img: product.img,
-                  price: calculatePrice(product.price, selectedWeight),
-                  weight: selectedWeight,
-                  quantity: 1,
-                });
-                router.push("/checkout");
-              }}
-              className="bg-[#1B5E20] text-white px-6 py-2 rounded hover:bg-green-900 text-center"
+              onClick={handleWhatsAppOrder}
+              className="bg-[#1B5E20] text-white px-6 py-2 rounded hover:bg-green-900 text-center flex items-center justify-center gap-2"
             >
-              Buy Now
+              Order on WhatsApp
             </button>
           </div>
 
