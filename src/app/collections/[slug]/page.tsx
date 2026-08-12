@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { use, useState } from "react";
 import { notFound } from "next/navigation";
@@ -77,7 +78,7 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
       )
       : products;
 
-  const bannerImage = categoryBanners[params.slug] || "/banner/defaultbanner.jpg";
+  const bannerImage = categoryBanners[params.slug] || "/banner/dryfruitbanner.jpg";
   const bannerTitle = categoryTitles[params.slug] || params.slug.replace("-", " ");
   const labelText = categoryLabels[params.slug] || params.slug;
 
@@ -182,14 +183,17 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
             <div className="relative w-full h-auto bg-white flex items-center justify-center over overflow-hidden">
               {["nuts-dryfruits", "berries", "seeds-more", "dfh-exclusives", "dates"].includes(params.slug) ? (
                 <Link href={`/product/${params.slug}/${product.id}`}>
-                  <img
+                  <Image
                     src={product.img}
                     alt={product.name}
+                    width={800}
+                    height={800}
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                     className="w-full h-auto object-cover hover:scale-105 transition cursor-pointer"
                   />
                 </Link>
               ) : (
-                <img src={product.img} alt={product.name} className="w-full h-auto object-cover" />
+                <Image src={product.img} alt={product.name} width={800} height={800} sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw" className="w-full h-auto object-cover" />
               )}
 
               {/* Wishlist Button with Message */}

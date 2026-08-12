@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { Headset, ShieldCheck, Truck, RotateCcw, CirclePlay } from "lucide-react";
 
 const ImageVideo: React.FC = () => {
@@ -10,9 +11,12 @@ const ImageVideo: React.FC = () => {
     <div className="mx-auto px-4 sm:px-6 md:px-10 py-10 bg-white">
       {/* Banner Image */}
       <div className="relative w-full">
-        <img
+        <Image
           src="/bg/showroom-dryfruit.jpg"
           alt="Dry Fruits Banner"
+          width={1600}
+          height={500}
+          sizes="100vw"
           className="w-full h-[400px] sm:h-[350px] xs:h-[250px] md:h-[400px] object-cover rounded-lg shadow-lg"
         />
 

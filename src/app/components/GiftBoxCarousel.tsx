@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import Image from "next/image";
 import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -59,11 +60,13 @@ const GiftBoxCarousel = () => {
                 key={index}
                 className="flex w-auto h-full justify-center items-center"
               >
-                <Link href="/collections/gift-box" className="block w-full h-full">
-                  <img
+                <Link href="/collections/gift-box" className="relative block w-full h-full">
+                  <Image
                     src={src}
                     alt={`Gift Box ${index + 1}`}
-                    className="w-full h-full rounded object-cover transition-transform duration-300 hover:scale-105 cursor-pointer"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="rounded object-cover transition-transform duration-300 hover:scale-105 cursor-pointer"
                   />
                 </Link>
               </SwiperSlide>

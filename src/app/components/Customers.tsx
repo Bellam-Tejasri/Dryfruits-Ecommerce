@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -60,16 +61,22 @@ const Customers: React.FC = () => {
   return (
     <section className="relative py-16 bg-gray-100 overflow-hidden mt-27">
       {/* Left decorative image */}
-      <img
+      <Image
         src="/logo/testimonial-shape.png"
-        alt="left decor"
+        alt=""
+        aria-hidden="true"
+        width={366}
+        height={367}
         className="absolute top-0 left-0 h-full w-auto object-contain pointer-events-none"
       />
 
       {/* Right decorative image */}
-      <img
+      <Image
         src="/logo/testimonial-shape2.png"
-        alt="right decor"
+        alt=""
+        aria-hidden="true"
+        width={382}
+        height={381}
         className="absolute top-0 right-0 h-full w-auto object-contain pointer-events-none"
       />
 
@@ -88,9 +95,11 @@ const Customers: React.FC = () => {
                 {/* Avatar + text section */}
                 <div className="flex items-start top-14 -left-4 mt-6 justifty-center">
                  {/* Avatar */}
-                    <img
-                    src="/logo/testimonialimg.png"
-                    alt="Avatar"
+                    <Image
+                    src="/logo/testimonialImg.png"
+                    alt="Customer avatar"
+                    width={56}
+                    height={56}
                     className="w-auto h-auto left-0 object-cover"/>
                 </div>
 

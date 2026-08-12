@@ -56,7 +56,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onBack, onSuccess }) => {
       });
       
       onSuccess?.();
-    } catch (err) {
+    } catch {
       setError('Signup failed. Please try again.');
     } finally {
       setLoading(false);

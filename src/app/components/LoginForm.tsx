@@ -45,7 +45,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onBack, onSuccess }) => {
       
       login(user);
       onSuccess?.();
-    } catch (err) {
+    } catch {
       setError('Login failed. Please try again.');
     } finally {
       setLoading(false);

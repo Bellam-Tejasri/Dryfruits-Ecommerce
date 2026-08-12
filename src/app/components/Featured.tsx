@@ -2,6 +2,7 @@
 
 import React, { useRef } from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, User, Calendar } from "lucide-react";
 
@@ -53,9 +54,12 @@ const Featured: React.FC = () => {
               {/* Product Image */}
               <Link href={`/collections/${cat.slug}`}>
                 <div className="flex items-center justify-center p-6 w-full h-auto cursor-pointer hover:scale-105 transition">
-                  <img
+                  <Image
                     src={cat.img}
                     alt={cat.name}
+                    width={800}
+                    height={800}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="h-auto w-full object-contain"
                   />
                 </div>

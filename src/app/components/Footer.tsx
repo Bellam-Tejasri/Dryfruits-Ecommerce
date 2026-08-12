@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Facebook, Twitter, Instagram, Linkedin, Landmark, PhoneForwarded, Mail, ChevronDown, ChevronUp } from "lucide-react";
 
@@ -21,7 +22,7 @@ const Footer: React.FC = () => {
         <div className="flex-1 text-center md:text-left">
           <div className="flex items-center justify-between md:block cursor-pointer md:cursor-default" onClick={() => setAboutOpen(!aboutOpen)}>
             <a href="#" className="hover:text-gray-300 inline-block mb-4">
-              <img src="/logo/dryfruit.png" alt="Dry Fruits House" className="w-auto h-auto" />
+              <Image src="/logo/dryfruit.png" alt="Dry Fruits House" width={180} height={40} className="w-auto h-auto" />
             </a>
             <span className="md:hidden">
               {aboutOpen ? <ChevronUp className="w-5 h-5 text-black" /> : <ChevronDown className="w-5 h-5 text-black" />}

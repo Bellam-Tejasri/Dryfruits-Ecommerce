@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Heart, Menu, X, ShoppingCart } from "lucide-react";
@@ -27,9 +28,12 @@ const Navbar: React.FC = () => {
 
         {/* Logo beside menu button */}
         <Link href="/"className="flex flex-2 items-center gap-2">
-          <img
+          <Image
             src="/logo/logo main.png"
-            alt="Dry Fruit House"
+            alt="Teja Dryfruits"
+            width={500}
+            height={500}
+            priority
             className="h-15 w-auto"
           />
             <p className="text-sm font-bold text-xl text-[#476504]">TEJA DRYFRUITS</p>

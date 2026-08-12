@@ -2,6 +2,7 @@
 
 import React, { useRef } from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, User, Calendar } from "lucide-react"; 
 
@@ -52,9 +53,12 @@ const Signature: React.FC = () => {
               {/* Product Image */}
               <Link href={`/collections/${product.slug}`}>
                 <div className="flex items-center justify-center p-6 w-[100%] h-auto cursor-pointer hover:scale-105 transition">
-                  <img
+                  <Image
                     src={product.img}
                     alt={product.name}
+                    width={1080}
+                    height={1080}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="h-full w-auto rounded-lg object-contain"
                   />
                 </div>

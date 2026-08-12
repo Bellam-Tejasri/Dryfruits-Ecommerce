@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Header from "@/app/components/Header";
@@ -56,7 +57,7 @@ export default function CartPage() {
                       <tr key={`${item.id}-${item.category}-${item.weight}`} className="border-b">
                         <td className="px-4 py-4">
                           <div className="flex items-center gap-4">
-                            <img src={item.img} alt={item.name} className="w-16 h-16 object-cover rounded" />
+                            <Image src={item.img} alt={item.name} width={64} height={64} className="w-16 h-16 object-cover rounded" />
                             <span className="font-medium text-gray-800">{item.name}</span>
                           </div>
                         </td>
@@ -101,7 +102,7 @@ export default function CartPage() {
                 {cart.map((item) => (
                   <div key={`${item.id}-${item.category}-${item.weight}`} className="border rounded-lg p-4 shadow-sm">
                     <div className="flex gap-4">
-                      <img src={item.img} alt={item.name} className="w-20 h-20 object-cover rounded" />
+                      <Image src={item.img} alt={item.name} width={80} height={80} className="w-20 h-20 object-cover rounded" />
                       <div className="flex-1">
                         <h3 className="font-medium text-gray-800 text-sm">{item.name}</h3>
                         <p className="text-gray-500 text-xs mt-1">{item.weight}</p>
