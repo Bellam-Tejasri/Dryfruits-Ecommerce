@@ -76,7 +76,7 @@ export default function AboutPage() {
             appreciation resulting in long-lasting relations.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Our goal is to nourish people's lives by offering a wide variety of
+            Our goal is to nourish people&apos;s lives by offering a wide variety of
             convenient, delicious, and hygienic food choices that can help everyone
             enjoy a balanced, healthful diet. We provide gifting varieties such as
             chocolate bouquets, dryfruit packs, fancy dry fruit baskets and plenty
@@ -84,7 +84,7 @@ export default function AboutPage() {
           </p>
 
           <h6 className="text-[#6D4C41] font-bold mb-1 mt-5">Vision</h6>
-          <p className="text-gray-600 leading-relaxed">To be India's most customer centric company, where customers can buy high quality dry fruits at their convenience and enjoy a balanced, healthful diet.</p>
+          <p className="text-gray-600 leading-relaxed">To be India&apos;s most customer centric company, where customers can buy high quality dry fruits at their convenience and enjoy a balanced, healthful diet.</p>
           <h6 className="text-[#6D4C41] font-bold mb-1 mt-5">Mision</h6>
           <p className="text-gray-600 leading-relaxed">We strive to offer our customers the top quality dry fruits at reasonable rates and at the utmost convenience.</p>
         </div>

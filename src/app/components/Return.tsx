@@ -33,7 +33,7 @@ export default function ReturnPage() {
 
       <h1 className="text-black font-semibold text-xl">Returns Policy</h1>
       <p className="text-gray-500 font-extralight mt-3">Got a question about our returns policy? Find the ins and outs detailed here. If you still have questions give our helpful team a ring.
-        We hope you're happy with your our purchase, if you decide it isn't right for you, you can return or exchange unwanted items within 10 days of purchase. Please note that all refunds will be made back to the original tender type. For in-store purchases where mixed payment methods have been used, we will need to process the refund in order of Gift Cards, then Credit/Debit Card and cash will be the last amount to be refunded.</p>
+        We hope you&apos;re happy with your our purchase, if you decide it isn&apos;t right for you, you can return or exchange unwanted items within 10 days of purchase. Please note that all refunds will be made back to the original tender type. For in-store purchases where mixed payment methods have been used, we will need to process the refund in order of Gift Cards, then Credit/Debit Card and cash will be the last amount to be refunded.</p>
 
 
       <h1  className="text-gray-500 font-extralight underline text-l mt-3">Please note, items must:</h1>

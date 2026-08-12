@@ -106,7 +106,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onBack, onSuccess }) => {
       </form>
 
       <p className="text-center text-gray-600">
-        Don't have an account? <a href="#" onClick={(e) => { e.preventDefault(); onBack?.(); }} className="text-[#a12424] hover:text-[#8b1f1f] font-semibold transition">Sign up</a>
+        Don&apos;t have an account? <a href="#" onClick={(e) => { e.preventDefault(); onBack?.(); }} className="text-[#a12424] hover:text-[#8b1f1f] font-semibold transition">Sign up</a>
       </p>
     </div>
   );

@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState, ReactNode } from "react";
 
-interface WishlistItem {
+export interface WishlistItem {
   id: number;
   slug: string;
   name: string;

@@ -7,7 +7,7 @@ import Navbar from "@/app/components/Navbar";
 import FeaturedBox from "@/app/components/FeaturedBox";
 import Footer from "@/app/components/Footer";
 import { Handbag, Heart } from "lucide-react";
-import { useWishlist } from "@/app/context/WishlistContext";
+import { useWishlist, type WishlistItem } from "@/app/context/WishlistContext";
 
 export default function WishlistPage() {
   const { wishlist, removeFromWishlist, addToWishlist } = useWishlist();
@@ -31,7 +31,7 @@ export default function WishlistPage() {
     }
   };
 
-  const handleWishlistClick = (product: any) => {
+  const handleWishlistClick = (product: WishlistItem) => {
     const exists = wishlist.some((item) => item.id === product.id && item.slug === product.slug);
 
     if (exists) {
