@@ -68,7 +68,7 @@ export default function WishlistPage() {
         {/* Banner */}
         <div className="text-center py-20">
           <Heart className="w-20 h-20 text-gray-300 mx-auto mb-6" />
-          <h2 className="text-2xl font-semibold text-gray-800 mb-3">Your Cart is Empty</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-3">Your Wishlist is Empty</h2>
           <p className="text-gray-600 mb-8">Browse our collection and add your favorite dry fruits!</p>
           <Link
             href="/collections/nuts-dryfruits"

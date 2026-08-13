@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { ChevronLeft, ChevronRight, Heart, ShoppingCart } from "lucide-react";
+import { ChevronLeft, ChevronRight, Heart } from "lucide-react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
