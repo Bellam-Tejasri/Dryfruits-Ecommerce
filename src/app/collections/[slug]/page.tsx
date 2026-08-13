@@ -9,7 +9,7 @@ import Navbar from "@/app/components/Navbar";
 import productsData from "@/app/app.json";
 import FeaturedBox from "@/app/components/FeaturedBox";
 import Footer from "@/app/components/Footer";
-import { ShoppingCart, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 import { useWishlist } from "@/app/context/WishlistContext";
 
 import {

@@ -98,7 +98,6 @@ const Footer: React.FC = () => {
           </div>
           <ul className={`${accountOpen ? 'flex' : 'hidden'} md:flex space-y-3 sm:space-y-4 text-gray-600 flex-col items-start`}>
             <li><Link href="/account" className="hover:text-[#6D4C41]">My Account</Link></li>
-            <li><Link href="/orders" className="hover:text-[#6D4C41]">My Orders</Link></li>
             <li><Link href="/privacy" className="hover:text-[#6D4C41]">Privacy Policy</Link></li>
             <li><Link href="/return" className="hover:text-[#6D4C41]">Return Policy</Link></li>
             <li><Link href="/terms" className="hover:text-[#6D4C41]">Terms & Conditions</Link></li>

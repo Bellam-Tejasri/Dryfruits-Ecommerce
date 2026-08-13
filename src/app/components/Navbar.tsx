@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { Heart, Menu, X, ShoppingCart } from "lucide-react";
+import { Heart, Menu, X } from "lucide-react";
 import { useWishlist } from "@/app/context/WishlistContext";
 
 const Navbar: React.FC = () => {
