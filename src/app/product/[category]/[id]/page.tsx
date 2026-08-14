@@ -42,9 +42,6 @@ export default function ProductPage() {
   // All hooks must be called before any conditional return
   const [selectedImage, setSelectedImage] = useState<string>("");
   const [selectedWeight, setSelectedWeight] = useState<string>("100 gram");
-  const [activeTab, setActiveTab] = useState<"description" | "benefits">("description");
-  const descriptionRef = useRef<HTMLDivElement>(null);
-  const benefitsRef = useRef<HTMLDivElement>(null);
   const [thumbStartIndex, setThumbStartIndex] = useState(0);
   const { wishlist, addToWishlist, removeFromWishlist } = useWishlist();
   const [globalMessage, setGlobalMessage] = useState<string | null>(null);
@@ -57,8 +54,8 @@ export default function ProductPage() {
         <Navbar />
         <div className="flex-grow flex items-center justify-center">
           <div className="text-center">
-            <h1 className="text-2xl font-bold text-gray-800 mb-4">Product Not Found</h1>
-            <Link href="/" className="text-[#6D4C41] underline">Go back home</Link>
+            <h1 className="text-2xl font-bold text-[#2E2E2E] mb-4">Product Not Found</h1>
+            <Link href="/" className="text-[#A67C52] underline">Go back home</Link>
           </div>
         </div>
         <Footer />
@@ -119,7 +116,7 @@ export default function ProductPage() {
       </nav>
 
       {/* Main Product Section */}
-      <div className="px-4 md:px-10 mt-5 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="px-4 md:px-10 mt-5 grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
 
         {/* Left: Image */}
         <div className="flex flex-col items-center w-full">
@@ -135,21 +132,20 @@ export default function ProductPage() {
             />
 
             {/* Wishlist */}
-              <div className="absolute top-2 right-2 flex flex-col items-center w-10">
-                <button
-                  onClick={handleWishlistClick}
-                  className="bg-white rounded-full p-2 shadow hover:bg-red-100 transition w-10 h-10 flex items-center justify-center"
-                >
-                  <Heart
-                    size={20}
-                    className={`${
-                      wishlist.some((item) => item.id === product.id && item.slug === category)
-                        ? "text-[#6D4C41] fill-[#6D4C41]"
-                        : "text-[#6D4C41]"
+            <div className="absolute top-2 right-2 flex flex-col items-center w-10">
+              <button
+                onClick={handleWishlistClick}
+                className="bg-white rounded-full p-2 shadow hover:bg-red-100 transition w-10 h-10 flex items-center justify-center"
+              >
+                <Heart
+                  size={20}
+                  className={`${wishlist.some((item) => item.id === product.id && item.slug === category)
+                      ? "text-[#2E2E2E] fill-[#2E2E2E]"
+                      : "text-[#2E2E2E]"
                     }`}
-                  />
-                </button>
-              </div>
+                />
+              </button>
+            </div>
           </div>
 
 
@@ -181,10 +177,12 @@ export default function ProductPage() {
                       onClick={() => setSelectedImage(img)}
                     >
                       <Image src={img}
-                      alt={product.name}
-                      width={80}
-                      height={80}
-                      className="h-16 sm:h-20 w-auto rounded" />
+                        alt={product.name}
+                        width={80}
+                        height={80}
+                        sizes="80px"
+                        className="h-16 sm:h-20 w-auto rounded"
+                        loading="lazy" />
                     </div>
                   ))}
               </div>
@@ -210,24 +208,82 @@ export default function ProductPage() {
         <div className="border border-gray-100 rounded p-4 md:p-6 shadow w-full">
           <h1 className="text-2xl md:text-3xl font-bold mb-2 text-black">{product.name}</h1>
 
-          {/* Weight & Price */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-3 gap-2 sm:gap-0">
-            <select
-              value={selectedWeight}
-              onChange={(e) => setSelectedWeight(e.target.value)}
-              className="border w-full sm:w-40 h-11 rounded p-2 text-black"
-            >
-              <option>100 gram</option>
-              <option>250 gram</option>
-              <option>500 gram</option>
-              <option>1 Kg</option>
-              <option>2 Kg</option>
-              <option>5 Kg</option>
-            </select>
+          {/* Weight Selection */}
+          <div className="mb-5">
 
-            <p className="text-xl text-[#6D4C41] font-semibold">
-              ₹{calculatePrice(product.price, selectedWeight).toFixed(2)}
-            </p>
+            <div className="flex items-center justify-between mb-3">
+              <p className="text-lg font-semibold text-[#2E2E2E]">
+                Weight:
+                <span className="font-bold ml-2 text-[#6D4C41]">
+                  {selectedWeight}
+                </span>
+              </p>
+
+              <p className="text-xl font-bold text-[#6D4C41]">
+                ₹{calculatePrice(product.price, selectedWeight).toFixed(2)}
+              </p>
+            </div>
+
+            {/* Weight Options */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+
+              {[
+                "100 gram",
+                "250 gram",
+                "500 gram",
+                "1 Kg",
+                "2 Kg",
+              ].map((weight) => {
+
+                const isSelected = selectedWeight === weight;
+                const weightPrice = calculatePrice(product.price, weight);
+
+                return (
+                  <button
+                    key={weight}
+                    type="button"
+                    onClick={() => setSelectedWeight(weight)}
+                    className={`
+            relative
+            border
+            rounded-lg
+            px-3
+            py-3
+            text-center
+            transition-all
+            duration-200
+            ${isSelected
+                        ? "border-[#6D4C41] bg-[#FFF8F0] shadow-md"
+                        : "border-gray-300 bg-white hover:border-[#A67C52] hover:bg-[#FFFCF7]"
+                      }
+          `}
+                  >
+
+                    {/* Selected Tick */}
+                    {isSelected && (
+                      <span className="absolute top-1 right-2 text-[#6D4C41] font-bold">
+                        ✓
+                      </span>
+                    )}
+
+                    <p
+                      className={`font-semibold ${isSelected
+                          ? "text-[#6D4C41]"
+                          : "text-[#2E2E2E]"
+                        }`}
+                    >
+                      {weight}
+                    </p>
+
+                    <p className="text-sm text-gray-600 mt-1">
+                      ₹{weightPrice.toFixed(2)}
+                    </p>
+
+                  </button>
+                );
+              })}
+
+            </div>
           </div>
 
           {/* Delivery Info */}
@@ -237,7 +293,7 @@ export default function ProductPage() {
           </p>
 
           {/* Icons */}
-          <div className="border rounded p-3 shadow-sm mb-4">
+          {/* <div className="border rounded p-3 shadow-sm mb-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div className="flex flex-col items-center">
                 <Image src="/icons/healthy-heart.png" alt="Healthy Heart" width={74} height={74} className="w-12 h-12 mb-2" />
@@ -256,48 +312,29 @@ export default function ProductPage() {
                 <p className="text-sm text-black font-medium">Cholesterol Free</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 mb-5">
-            {/* <button
-              onClick={() => {
-                addToCart({
-                  id: product.id,
-                  category,
-                  name: product.name,
-                  img: product.img,
-                  price: calculatePrice(product.price, selectedWeight),
-                  weight: selectedWeight,
-                  quantity: 1,
-                });
-                setGlobalMessage("Added to your Cart");
-                setTimeout(() => setGlobalMessage(null), 2000);
-              }}
-              className="bg-[#6D4C41] text-white px-6 py-2 rounded hover:bg-black text-center flex items-center justify-center gap-2"
-            >
-              <ShoppingCart size={18} />
-              Add to Cart
-            </button> */}
             <button
               onClick={handleWhatsAppOrder}
-              className="bg-[#1B5E20] text-white px-6 py-2 rounded hover:bg-green-900 text-center flex items-center justify-center gap-2"
+              className="bg-[#A67C52] text-white px-6 py-2 rounded hover:bg-[#8B5E34] text-center flex items-center justify-center gap-2"
             >
               Order on WhatsApp
             </button>
           </div>
 
-          <p className="font-extralight text-black mb-2">
-            <strong className="font-bold text-black">SKU:</strong> {product.sku || "DRYF" + productId}
-          </p>
+          {/* <p className="font-extralight text-[#2E2E2E] mb-2">
+            <strong className="font-bold text-[#2E2E2E]">SKU:</strong> {product.sku || "DRYF" + productId}
+          </p> */}
 
-          <h2 className="font-bold text-black mb-2">Description:</h2>
-          <p className="text-gray-700">{product.shortDescription}</p>
+          <h2 className="font-bold text-[#2E2E2E] mb-2">Description:</h2>
+          <p className="text-[#2E2E2E]">{product.shortDescription}</p>
         </div>
       </div>
 
       {/* Tabs Section */}
-      <div className="bg-gray-100 py-10 mt-8 mb-4">
+      {/* <div className="bg-gray-100 py-10 mt-8 mb-4">
         <div className="w-full md:w-4/5 mx-auto h-auto px-4 md:px-0">
           <div className="flex flex-wrap md:flex-nowrap gap-4 md:gap-6 pb-2 mb-6">
             <button
@@ -329,7 +366,7 @@ export default function ProductPage() {
             )}
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* Message */}
@@ -339,8 +376,6 @@ export default function ProductPage() {
         </div>
       )}
 
-
-      <FeaturedBox />
       <Footer />
     </div>
   );

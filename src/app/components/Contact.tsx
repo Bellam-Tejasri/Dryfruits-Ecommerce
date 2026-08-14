@@ -4,7 +4,7 @@ import FeaturedBox from "../components/FeaturedBox";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-import {Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram,} from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram, } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -20,12 +20,12 @@ export default function ContactPage() {
       {/* Text */}
       <div className="px-4 sm:px-8 md:px-16 lg:px-40">
         <h1 className="text-black text-2xl sm:text-3xl md:text-4xl mt-6 md:mt-10">Get In Touch</h1>
-        <p className="text-gray-500 mt-3 text-sm md:text-base">We are here to help our customers all over world. We would be happy to assist you.<br/>
-            So let us know what are your queries or what you are looking for, we will get back to you shortly</p>
+        <p className="text-gray-500 mt-3 text-sm md:text-base">We are here to help our customers all over world. We would be happy to assist you.<br />
+          So let us know what are your queries or what you are looking for, we will get back to you shortly</p>
       </div>
 
       {/* Contact Section */}
-      <section className="px-4 sm:px-8 md:px-16 lg:px-40 mt-8 md:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <section className="px-4 sm:px-8 md:px-16 lg:px-40 mt-8 md:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6 mb-16">
         {/* Left Box - Contact Info */}
         <div className="bg-[#6D4C41] text-white rounded-xl p-6 md:p-8 shadow-lg flex flex-col justify-between">
           <div>
@@ -34,7 +34,7 @@ export default function ContactPage() {
             <div className="flex mt-4 items-start">
               <Phone className="w-6 h-6 mt-1 mr-4 text-white flex-shrink-0" />
               <div>
-                <p className="font-semibold">Reach us on call/whatsapp</p>
+                <p className="font-semibold">Reach us on WhatsApp</p>
                 <p className="mt-1 text-gray-200 hover:text-black">+91-9948025904</p>
               </div>
             </div>
@@ -47,13 +47,17 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="flex mt-5 items-start">
-              <MapPin className="w-6 h-6 mt-1 mr-4 text-white flex-shrink-0" />
+            <div className="flex mt-6 items-start gap-4">
+              <MapPin className="w-6 h-6 text-white flex-shrink-0 mt-1" />
+
               <div>
-                <p className="font-semibold mt-4 text-xl">Store Location</p>
-                <p className="text-gray-200 mt-4">
+                <p className="font-semibold text-lg md:text-xl">
+                  Store Location
+                </p>
+
+                <p className="text-gray-200 mt-2 leading-relaxed">
                   Beside Sangam Dairy,<br />
-                  Opp SBI Bank, Parchur road,<br />
+                  Opp SBI Bank, Parchur Road,<br />
                   Inkollu, Andhra Pradesh 523167
                 </p>
               </div>
@@ -62,12 +66,8 @@ export default function ContactPage() {
 
           {/* Social Icons */}
           <div className="mt-6">
-            <p className="font-semibold text-lg md:text-xl mb-2">Follow Us</p>
+            <p className="font-semibold text-lg md:text-xl mb-2">Follow us on</p>
             <div className="flex gap-4 mb-4">
-              <Facebook className="w-6 h-6 cursor-pointer hover:text-gray-300" />
-              <Twitter className="w-6 h-6 cursor-pointer hover:text-gray-300" />
-              <Linkedin className="w-6 h-6 cursor-pointer hover:text-gray-300" />
-
               <a
                 href="https://www.instagram.com/teja_dryfruits/"
                 target="_blank"
@@ -139,8 +139,6 @@ export default function ContactPage() {
           </form>
         </div>
       </section>
-
-      <FeaturedBox />
       <Footer />
     </div>
   );

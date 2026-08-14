@@ -7,7 +7,6 @@ import { notFound } from "next/navigation";
 import Header from "@/app/components/Header";
 import Navbar from "@/app/components/Navbar";
 import productsData from "@/app/app.json";
-import FeaturedBox from "@/app/components/FeaturedBox";
 import Footer from "@/app/components/Footer";
 import { Heart } from "lucide-react";
 import { useWishlist } from "@/app/context/WishlistContext";
@@ -124,8 +123,7 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
         <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-start px-4 sm:px-8 md:px-16 lg:px-30">
-          <h1 className="text-white text-2xl sm:text-3xl md:text-5xl font-bold mb-2 capitalize">{bannerTitle}</h1>
-          <p className="text-white text-sm md:text-lg">Home -- {bannerTitle}</p>
+          <h1 className="text-[#2E2E2E] text-2xl sm:text-3xl md:text-5xl font-bold mb-2 capitalize">{bannerTitle}</h1>
         </div>
       </div>
 
@@ -174,7 +172,7 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
       )}
 
       {/*Products*/}
-      <div className="grid grid-cols-1 bg-white px-4 md:px-10 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mt-8">
+      <div className="grid grid-cols-1 bg-white px-4 md:px-10 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mt-8 mb-16">
         {filteredProducts.map((product) => (
           <div key={product.id} className="border rounded-b-none shadow-md text-black flex flex-col h-auto w-auto">
             {/* Product Image */}
@@ -184,10 +182,11 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
                   <Image
                     src={product.img}
                     alt={product.name}
-                    width={800}
-                    height={800}
-                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-                    className="w-full h-auto object-cover hover:scale-105 transition cursor-pointer"
+                    width={500}
+                    height={500}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="w-full h-auto object-cover"
+                    loading="lazy"
                   />
                 </Link>
               ) : (
@@ -232,7 +231,6 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
                       <SelectItem value="500 gram">500 gram</SelectItem>
                       <SelectItem value="1 Kg">1 Kg</SelectItem>
                       <SelectItem value="2 Kg">2 Kg</SelectItem>
-                      <SelectItem value="5 Kg">5 Kg</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -252,7 +250,7 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
                 {params.slug !== "gift-box" ? (
                   <>
                     <Link href={`/product/${params.slug}/${product.id}`}>
-                      <button className="bg-[#6D4C41] text-white text-sm py-1.5 px-3 rounded hover:bg-black transition flex items-center justify-center gap-1">
+                      <button className="bg-[#A67C52] text-white text-sm py-1.5 px-3 rounded hover:bg-[#8B5E34] transition flex items-center justify-center gap-1">
                         View Details
                       </button>
                     </Link>
@@ -262,7 +260,7 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
                     href="https://wa.me/9948025904"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#6D4C41] text-white text-sm py-1.5 px-3 rounded hover:bg-black transition flex items-center gap-2"
+                    className="bg-[#A67C52] text-white text-sm py-1.5 px-3 rounded hover:bg-[#8B5E34] transition flex items-center gap-2"
                   >
                     WhatsApp / Call Us
                   </a>
@@ -280,7 +278,6 @@ export default function CategoryPage({ params: paramsPromise }: { params: Promis
         </div>
       )}
 
-      <FeaturedBox />
       <Footer />
     </div>
   );

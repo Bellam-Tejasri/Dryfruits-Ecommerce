@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
   const wishlistCount = wishlist.length;
 
   return (
-    <nav className="sticky top-0 z-50 flex justify-between items-center px-4 md:px-10 py-2 bg-white shadow-md">
+    <nav className="sticky top-0 z-50 flex justify-between items-center px-4 md:px-10 py-2 bg-[#FFF8F0] shadow-md">
       {/* Mobile Menu Button (Left Side) */}
       <div className="flex items-center gap-4">
         <button
@@ -34,77 +34,57 @@ const Navbar: React.FC = () => {
             priority
             className="h-15 w-auto"
           />
-            <p className="text-sm font-bold text-xl text-[#476504]">TEJA DRYFRUITS</p>
+            <p className="text-sm font-bold text-xl text-[#2E2E2E]">TEJA DRYFRUITS</p>
         </Link>
       </div>
 
-      {/* Mobile Icons (Wishlist + Cart) */}
+      {/* Mobile Icons (Wishlist) */}
       <div className="flex md:hidden items-center gap-4">
         <Link href="/wishlist" className="relative">
-          <Heart className="w-6 h-6 text-[#6D4C41]" />
+          <Heart className="w-6 h-6 text-[#2E2E2E]" />
           {wishlistCount > 0 && (
-            <span className="absolute -top-2 -right-2 bg-[#6D4C41] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
+            <span className="absolute -top-2 -right-2 bg-[#2E2E2E] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
               {wishlistCount}
             </span>
           )}
         </Link>
-        {/* <Link href="/cart" className="relative">
-          <ShoppingCart className="w-6 h-6 text-[#6D4C41]" />
-          {cartCount > 0 && (
-            <span className="absolute -top-2 -right-2 bg-[#6D4C41] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
-              {cartCount}
-            </span>
-          )}
-        </Link> */}
       </div>
 
       {/* Desktop Links */}
       <ul className="hidden md:flex items-center gap-10 text-gray-600 font-medium">
-        <li><Link href="/" className="hover:text-[#476504]">Home</Link></li>
-        <li><Link href="/about" className="hover:text-[#476504]">About Us</Link></li>
+        <li><Link href="/" className="hover:text-[#2E2E2E]">Home</Link></li>
+        <li><Link href="/about" className="hover:text-[#2E2E2E]">About Us</Link></li>
         <li className="relative">
           <button
             onClick={() => setShowShopMenu(!showShopMenu)}
-            className="flex items-center gap-1 hover:text-[#476504]"
+            className="flex items-center gap-1 hover:text-[#2E2E2E]"
           >
             Shop +
           </button>
           {showShopMenu && (
             <ul className="absolute top-full left-0 mt-2 bg-white shadow-lg border rounded w-48 z-10">
-              <li className="px-4 py-2 hover:text-[#476504]"><Link href="/collections/nuts-dryfruits">Nuts & Dry Fruits</Link></li>
-              <li className="px-4 py-2 hover:text-[#476504]"><Link href="/collections/dates">Dates</Link></li>
-              <li className="px-4 py-2 hover:text-[#476504]"><Link href="/collections/dfh-exclusives">DFH Exclusives</Link></li>
-              <li className="px-4 py-2 hover:text-[#476504]"><Link href="/collections/berries">Berries</Link></li>
-              <li className="px-4 py-2 hover:text-[#476504]"><Link href="/collections/seeds-more">Seeds & More</Link></li>
-              <li className="px-4 py-2 hover:text-[#476504]"><Link href="/collections/gift-box">Gift Boxes</Link></li>
+              <li className="px-4 py-2 hover:text-[#2E2E2E]"><Link href="/collections/nuts-dryfruits">Nuts & Dry Fruits</Link></li>
+              <li className="px-4 py-2 hover:text-[#2E2E2E]"><Link href="/collections/dates">Dates</Link></li>
+              <li className="px-4 py-2 hover:text-[#2E2E2E]"><Link href="/collections/dfh-exclusives">DFH Exclusives</Link></li>
+              <li className="px-4 py-2 hover:text-[#2E2E2E]"><Link href="/collections/berries">Berries</Link></li>
+              <li className="px-4 py-2 hover:text-[#2E2E2E]"><Link href="/collections/seeds-more">Seeds & More</Link></li>
+              <li className="px-4 py-2 hover:text-[#2E2E2E]"><Link href="/collections/gift-box">Gift Boxes</Link></li>
             </ul>
           )}
         </li>
-        <li><Link href="/bulk-order" className="hover:text-[#476504]">Bulk Order</Link></li>
-        <li><Link href="/contact" className="hover:text-[#476504]">Contact Us</Link></li>
+        <li><Link href="/bulk-order" className="hover:text-[#2E2E2E]">Bulk Order</Link></li>
+        <li><Link href="/contact" className="hover:text-[#2E2E2E]">Contact Us</Link></li>
 
         {/* Wishlist */}
         <li className="relative">
-          <Link href="/wishlist" className="hover:text-[#476504] flex items-center">
-            <Heart className="w-6 h-6 hover:fill-[#476504]" />
+          <Link href="/wishlist" className="hover:text-[#2E2E2E] flex items-center">
+            <Heart className="w-6 h-6 hover:fill-[#2E2E2E]" />
             {wishlistCount > 0 && (
-              <span className="absolute -top-2 -right-2 bg-[#476504] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
+              <span className="absolute -top-2 -right-2 bg-[#2E2E2E] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
                 {wishlistCount}
               </span>
             )}
           </Link>
-        </li>
-
-        {/* Cart */}
-        <li className="relative">
-          {/* <Link href="/cart" className="hover:text-[#6D4C41] flex items-center">
-            <ShoppingCart className="w-6 h-6 hover:text-[#6D4C41]" />
-            {cartCount > 0 && (
-              <span className="absolute -top-2 -right-2 bg-[#6D4C41] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
-                {cartCount}
-              </span>
-            )}
-          </Link> */}
         </li>
       </ul>
 
@@ -160,12 +140,6 @@ const Navbar: React.FC = () => {
                   Wishlist {wishlistCount > 0 && `(${wishlistCount})`}
                 </Link>
               </li>
-              {/* <li>
-                <Link href="/cart" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2">
-                  <ShoppingCart className="w-5 h-5 text-[#6D4C41]" />
-                  Cart {cartCount > 0 && `(${cartCount})`}
-                </Link>
-              </li> */}
             </ul>
           </div>
         </div>

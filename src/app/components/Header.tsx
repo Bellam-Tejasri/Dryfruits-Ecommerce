@@ -21,7 +21,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center px-4 md:px-10 py-3 text-sm bg-[#6D4C41] text-white">
+      <div className="flex justify-between items-center px-4 md:px-10 py-3 text-sm bg-[#4E342E] text-white">
 
         {/* Desktop / Laptop Content */}
         <div className="hidden md:flex w-full justify-between items-center">

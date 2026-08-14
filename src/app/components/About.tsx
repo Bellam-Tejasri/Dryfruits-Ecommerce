@@ -6,15 +6,14 @@ import Header from "@/app/components/Header";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import Customers from "../components/Customers";
-import FeaturedBox from "../components/FeaturedBox";
-import{CirclePlay } from "lucide-react";
+import { CirclePlay } from "lucide-react";
 
 export default function AboutPage() {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="bg-white min-h-screen flex flex-col">
       <Header />
-      <Navbar /> 
+      <Navbar />
 
       {/*Banner*/}
       <section className="relative w-full h-[180px] sm:h-[220px] md:h-80 overflow-hidden">
@@ -30,90 +29,89 @@ export default function AboutPage() {
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
             About Us
           </h1>
-          <p className="mt-2 text-gray-200 text-sm md:text-base">
-            Home <span className="mx-2">-</span> Company
-          </p>
         </div>
       </section>
 
-      {/* About Us*/}
-      <section className="px-4 sm:px-8 md:px-16 lg:px-40 py-8 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-start">
-          {/*Image */}
+      {/* About Us */}
+      <section className="px-4 sm:px-8 md:px-16 lg:px-80 py-8 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-start">
+
+          {/* Image */}
           <div>
             <Image
-              src="/about/shop.jpg"
-              alt="Dry Fruit House Store"
+              src="/about/shop.jpeg"
+              alt="TEJA Dryfruits Store"
               width={800}
-              height={600}
-              sizes="(max-width: 768px) 100vw, 448px"
-              className="w-full max-w-md h-auto rounded-lg"
+              height={100}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="w-full  rounded-lg"
             />
           </div>
 
-          {/* Text beside image */}
+          {/* All Text */}
           <div>
-            <h2 className="text-3xl text-black font-bold mb-4">About Us</h2>
-            <p className="text-gray-700 mb-4">
+            <h2 className="text-3xl text-black font-bold mb-4">
+              About Us
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed mb-4">
               <span className="font-semibold text-[#6D4C41]">
-                Dry Fruit House brings you a collection of carefully selected foods
-                from India and across the world.
+                TEJA Dryfruits is a local dry fruits, tea and coffee store
+                serving customers in Inkollu, Bapatla District, Andhra Pradesh.
               </span>
             </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              We offer a carefully selected range of dry fruits, nuts, healthy
+              snacks, beverages and herbal products, bringing quality and
+              freshness closer to our customers.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-5">
+              Our collection includes premium cashews, almonds, pistachios,
+              walnuts, raisins, berries and healthy seeds, along with tea,
+              coffee and herbal powders.
+            </p>
+
+            {/* Our Commitment */}
+            <h6 className="text-[#6D4C41] font-bold mb-2 mt-5">
+              Our Commitment
+            </h6>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Our goal is to provide our customers with quality products,
+              freshness and friendly service. We value the trust of our
+              customers and continuously strive to maintain good quality while
+              offering products at reasonable prices.
+            </p>
+
+            {/* Our Vision */}
+            <h6 className="text-[#6D4C41] font-bold mb-2 mt-5">
+              Our Vision
+            </h6>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              To become a trusted destination in Inkollu for quality dry fruits,
+              healthy food products, tea and coffee, while building long-lasting
+              relationships with our customers.
+            </p>
+
+            {/* Our Mission */}
+            <h6 className="text-[#6D4C41] font-bold mb-2 mt-5">
+              Our Mission
+            </h6>
+
             <p className="text-gray-600 leading-relaxed">
-              In our passionate search to offer food that is unique and full of
-              health, we have ensured you get only the best products. Our products
-              are well-loved for their quality and taste. We have gained expertise
-              in fine Indian food products and food ingredients across categories –
-              Dry Fruits, Chocolates, Gift Boxes, and Spices. We are importing fine
-              quality Nuts, dry fruits, and drinks from the source from which they
-              are available at their best. We are sure you will find our quality
-              products appetizing.
+              To provide fresh, quality and reasonably priced products with
+              convenient and friendly service, making healthy and delicious
+              choices easily accessible to our customers.
             </p>
           </div>
-        </div>
 
-        {/*text below */}
-        <div className="mt-5">
-          <p className="text-gray-600 leading-relaxed mb-4">
-            We started our first outlet at HSR layout, Bangalore in 2016. We focus
-            on stringent quality control and prompt service in order to ensure
-            market standards. Our focus on quality is evident in our product range.
-            We do not compromise on quality and there is very high level of customer
-            appreciation resulting in long-lasting relations.
-          </p>
-          <p className="text-gray-600 leading-relaxed">
-            Our goal is to nourish people&apos;s lives by offering a wide variety of
-            convenient, delicious, and hygienic food choices that can help everyone
-            enjoy a balanced, healthful diet. We provide gifting varieties such as
-            chocolate bouquets, dryfruit packs, fancy dry fruit baskets and plenty
-            of other varieties.
-          </p>
-
-          <h6 className="text-[#6D4C41] font-bold mb-1 mt-5">Vision</h6>
-          <p className="text-gray-600 leading-relaxed">To be India&apos;s most customer centric company, where customers can buy high quality dry fruits at their convenience and enjoy a balanced, healthful diet.</p>
-          <h6 className="text-[#6D4C41] font-bold mb-1 mt-5">Mision</h6>
-          <p className="text-gray-600 leading-relaxed">We strive to offer our customers the top quality dry fruits at reasonable rates and at the utmost convenience.</p>
         </div>
       </section>
 
-      {/*Banner2*/}
-      <section className="relative w-full h-[200px] sm:h-[250px] md:h-80 overflow-hidden">
-        <Image
-          src="/about/banner2.jpg"
-          alt="Curated foods from India and across the world"
-          fill
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-black/70 flex items-center justify-center px-4 sm:px-8 md:px-16">
-          <h1 className="text-lg sm:text-2xl md:text-3xl text-white text-center leading-relaxed">
-            Dry Fruit House brings you a collection of carefully selected foods from India and across the world.
-          </h1>
-        </div>
-      </section>
-      
-      <Customers/>
+      <Customers />
 
       {/* Banner Image */}
       <div className="relative w-full px-4 sm:px-8 md:px-10 py-6 md:py-10">
@@ -135,9 +133,9 @@ export default function AboutPage() {
             <CirclePlay className="text-[#6D4C41] w-10 h-10 hover:text-white animate-pulse" />
           </button>
         </div>
-        </div>
+      </div>
 
-        {/* Video Modal */}
+      {/* Video Modal */}
       {isOpen && (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
           <div className="relative bg-white rounded-lg w-[80%] h-[70%] overflow-hidden">
@@ -162,8 +160,6 @@ export default function AboutPage() {
           </div>
         </div>
       )}
-
-      <FeaturedBox/>
       <Footer />
     </div>
   );

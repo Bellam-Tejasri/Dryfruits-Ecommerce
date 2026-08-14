@@ -3,7 +3,14 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Facebook, Twitter, Instagram, Linkedin, Landmark, PhoneForwarded, Mail, ChevronDown, ChevronUp } from "lucide-react";
+import {
+  Instagram,
+  Landmark,
+  PhoneForwarded,
+  Mail,
+  ChevronDown,
+  ChevronUp
+} from "lucide-react";
 
 const Footer: React.FC = () => {
   const [aboutOpen, setAboutOpen] = useState(false)
@@ -12,143 +19,255 @@ const Footer: React.FC = () => {
   const [contactOpen, setContactOpen] = useState(false)
 
   return (
-    <footer
-      className="relative px-4 sm:px-6 md:px-10 lg:px-20 py-10 bg-cover bg-center text-black"
-      style={{ backgroundImage: "url('/bg/footer.jpg')" }}
-    >
+    <footer className="relative px-4 sm:px-6 md:px-10 lg:px-20 py-10 bg-[#4E342E] text-white">
+
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
 
         {/* About */}
         <div className="flex-1 text-center md:text-left">
-          <div className="flex items-center justify-between md:block cursor-pointer md:cursor-default" onClick={() => setAboutOpen(!aboutOpen)}>
-            <a href="#" className="hover:text-gray-300 inline-block mb-4">
-              <Image src="/logo/dryfruit.png" alt="Dry Fruits House" width={180} height={40} className="w-auto h-auto" />
+
+          <div
+            className="flex items-center justify-between md:block cursor-pointer md:cursor-default"
+            onClick={() => setAboutOpen(!aboutOpen)}
+          >
+            <a href="#" className="hover:opacity-80 inline-block mb-4">
+              <Image
+                src="/logo/dryfruit.png"
+                alt="Teja Dry Fruits"
+                width={180}
+                height={40}
+                className="w-auto h-auto"
+              />
             </a>
+
             <span className="md:hidden">
-              {aboutOpen ? <ChevronUp className="w-5 h-5 text-black" /> : <ChevronDown className="w-5 h-5 text-black" />}
+              {aboutOpen
+                ? <ChevronUp className="w-5 h-5 text-white" />
+                : <ChevronDown className="w-5 h-5 text-white" />
+              }
             </span>
           </div>
+
           <div className={`${aboutOpen ? 'block' : 'hidden'} md:block`}>
-            <p className="text-gray-600 mb-4">
-              Teja Dry Fruits brings you a collection of carefully selected foods from India and across the world.
-              <Link href="/about" className="text-[#6D4C41]"> [Explore More] </Link>
+
+            <p className="text-white mb-4">
+              Teja Dry Fruits brings you quality dry fruits, healthy
+              snacks, tea, coffee and herbal products in Inkollu.
+
+              <Link
+                href="/about"
+                className="text-white font-semibold hover:underline"
+              >
+                {" "} [Explore More]
+              </Link>
             </p>
+
             <div className="flex gap-3 mt-4 justify-center md:justify-start">
-              <a
-                href="#"
-                className="text-[#6D4C41] hover:text-black transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-6 h-6 fill-[#6D4C41]" />
-              </a>
 
-              <a
-                href="#"
-                className="text-[#6D4C41] hover:text-black transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-6 h-6 fill-[#6D4C41]" />
-              </a>
-
-              {/* Instagram */}
-              <a
+             <a
                 href="https://www.instagram.com/teja_dryfruits/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#6D4C41] hover:text-black transition-colors"
+                className="text-white hover:text-gray-300 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-6 h-6" />
               </a>
 
-              <a
-                href="#"
-                className="text-[#6D4C41] hover:text-black transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-6 h-6 fill-[#6D4C41]" />
-              </a>
             </div>
           </div>
         </div>
 
         {/* Quick Links */}
         <div className="flex-1 text-left">
-          <div className="flex items-center justify-between cursor-pointer md:cursor-default md:block" onClick={() => setQuickOpen(!quickOpen)}>
-            <h3 className="text-black text-bold mb-4">Quick Links</h3>
+
+          <div
+            className="flex items-center justify-between cursor-pointer md:cursor-default md:block"
+            onClick={() => setQuickOpen(!quickOpen)}
+          >
+            <h3 className="text-white font-bold mb-4">
+              Quick Links
+            </h3>
+
             <span className="md:hidden">
-              {quickOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+              {quickOpen
+                ? <ChevronUp className="w-5 h-5 text-white" />
+                : <ChevronDown className="w-5 h-5 text-white" />
+              }
             </span>
           </div>
-          <ul className={`${quickOpen ? 'flex' : 'hidden'} md:flex space-y-3 sm:space-y-4 text-gray-600 flex-col items-start`}>
-            <li><Link href="/about" className="hover:text-[#6D4C41]">About Us</Link></li>
-            <li><Link href="/contact" className="hover:text-[#6D4C41]">Contact Us</Link></li>
-            <li><Link href="/bulk-order" className="hover:text-[#6D4C41]">Bulk Ordering</Link></li>
-            <li><Link href="/collections/nuts-dryfruits" className="hover:text-[#6D4C41]">Shopping</Link></li>
+
+          <ul
+            className={`${quickOpen ? 'flex' : 'hidden'} md:flex space-y-3 sm:space-y-4 flex-col items-start text-white`}
+          >
+            <li>
+              <Link href="/about" className="hover:text-gray-300">
+                About Us
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/contact" className="hover:text-gray-300">
+                Contact Us
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="/collections/nuts-dryfruits"
+                className="hover:text-gray-300"
+              >
+                Shopping
+              </Link>
+            </li>
           </ul>
         </div>
 
         {/* Account Info */}
         <div className="flex-1 text-left">
-          <div className="flex items-center justify-between cursor-pointer md:cursor-default md:block" onClick={() => setAccountOpen(!accountOpen)}>
-            <h3 className="text-black text-bold mb-4">Account Info</h3>
+
+          <div
+            className="flex items-center justify-between cursor-pointer md:cursor-default md:block"
+            onClick={() => setAccountOpen(!accountOpen)}
+          >
+            <h3 className="text-white font-bold mb-4">
+              Account Info
+            </h3>
+
             <span className="md:hidden">
-              {accountOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+              {accountOpen
+                ? <ChevronUp className="w-5 h-5 text-white" />
+                : <ChevronDown className="w-5 h-5 text-white" />
+              }
             </span>
           </div>
-          <ul className={`${accountOpen ? 'flex' : 'hidden'} md:flex space-y-3 sm:space-y-4 text-gray-600 flex-col items-start`}>
-            <li><Link href="/account" className="hover:text-[#6D4C41]">My Account</Link></li>
-            <li><Link href="/privacy" className="hover:text-[#6D4C41]">Privacy Policy</Link></li>
-            <li><Link href="/return" className="hover:text-[#6D4C41]">Return Policy</Link></li>
-            <li><Link href="/terms" className="hover:text-[#6D4C41]">Terms & Conditions</Link></li>
+
+          <ul
+            className={`${accountOpen ? 'flex' : 'hidden'} md:flex space-y-3 sm:space-y-4 flex-col items-start text-white`}
+          >
+            <li>
+              <Link href="/account" className="hover:text-gray-300">
+                My Account
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/privacy" className="hover:text-gray-300">
+                Privacy Policy
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/return" className="hover:text-gray-300">
+                Return Policy
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/terms" className="hover:text-gray-300">
+                Terms & Conditions
+              </Link>
+            </li>
           </ul>
         </div>
 
         {/* Contact */}
+        {/* Contact */}
         <div className="flex-1 text-left">
-          <div className="flex items-center justify-between cursor-pointer md:cursor-default md:block" onClick={() => setContactOpen(!contactOpen)}>
-            <h3 className="text-black text-bold mb-4">Contact Details</h3>
+
+          <div
+            className="flex items-center justify-between cursor-pointer md:cursor-default md:block"
+            onClick={() => setContactOpen(!contactOpen)}
+          >
+            <h3 className="text-white font-bold mb-4">
+              Contact Details
+            </h3>
+
             <span className="md:hidden">
-              {contactOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+              {contactOpen
+                ? <ChevronUp className="w-5 h-5 text-white" />
+                : <ChevronDown className="w-5 h-5 text-white" />
+              }
             </span>
           </div>
-          <ul className={`${contactOpen ? 'flex' : 'hidden'} md:flex space-y-3 sm:space-y-4 text-gray-600 flex-col items-start`}>
-            <li className="flex flex-col sm:flex-row items-start gap-2">
-              <Landmark className="w-8 h-8 text-black mt-1 sm:mt-0 flex-shrink-0" />
-              <span className='text-sm'>
+
+          <ul
+            className={`${contactOpen ? "flex" : "hidden"
+              } md:flex flex-col gap-4 text-white`}
+          >
+
+            {/* Store Location */}
+            <li className="flex items-start gap-3">
+
+              <div className="w-6 flex-shrink-0 flex justify-center">
+                <Landmark className="w-6 h-6 text-white mt-0.5" />
+              </div>
+
+              <span className="text-sm text-white leading-relaxed">
                 Beside Sangam Dairy,<br />
-                Opp SBI Bank, Parchur road,<br />
+                Opp SBI Bank, Parchur Road,<br />
                 Inkollu, Andhra Pradesh 523167
               </span>
+
             </li>
-            <li className="flex items-center gap-2">
-              <Mail className="w-5 h-5 text-black flex-shrink-0" />
-              <a href="mailto:tejadryfruits@gmail.com" className='text-sm'>
+
+            {/* Email */}
+            <li className="flex items-center gap-3">
+
+              <div className="w-6 flex-shrink-0 flex justify-center">
+                <Mail className="w-5 h-5 text-white" />
+              </div>
+
+              <a
+                href="mailto:tejadryfruits@gmail.com"
+                className="text-sm text-white hover:text-gray-300"
+              >
                 tejadryfruits@gmail.com
               </a>
+
             </li>
-            <li className="flex items-center gap-2">
-              <PhoneForwarded className="w-5 h-5 text-black flex-shrink-0" />
-              <a href="tel:+91-9948025904">
+
+            {/* Phone */}
+            <li className="flex items-center gap-3">
+
+              <div className="w-6 flex-shrink-0 flex justify-center">
+                <PhoneForwarded className="w-5 h-5 text-white" />
+              </div>
+
+              <a
+                href="tel:+91-9948025904"
+                className="text-sm text-white hover:text-gray-300"
+              >
                 +91-9948025904
               </a>
+
             </li>
+
           </ul>
         </div>
       </div>
 
       {/* Bottom Copyright */}
-      <div className="border-t border-gray-400 mt-8 pt-4">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row text-sm text-gray-400 px-4 sm:px-6 md:px-0">
+      <div className="border-t border-white/40 mt-8 pt-4">
+
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row text-sm text-white px-4 sm:px-6 md:px-0">
+
           <p className="text-center md:text-left">
             Copyright © {new Date().getFullYear()}{" "}
-            <Link href="/" className="font-bold hover:underline text-black">
+
+            <Link
+              href="/"
+              className="font-bold hover:underline text-white"
+            >
               Teja Dry Fruits.
             </Link>{" "}
+
             All Rights Reserved.
           </p>
+
         </div>
       </div>
+
     </footer>
   )
 }

@@ -70,14 +70,6 @@ const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) => {
           <p className="text-xs text-gray-500 truncate">{user?.email}</p>
         </div>
 
-        {/* My Orders */}
-        <a 
-          href="/orders"
-          className="flex items-center gap-3 px-4 py-3 text-gray-800 hover:bg-gray-100 rounded transition w-full text-left mb-2 cursor-pointer"
-        >
-          <ShoppingBag className="w-5 h-5 text-[#a12424] flex-shrink-0" />
-          <span>My Orders</span>
-        </a>
 
         {/* Logout */}
         <button 
